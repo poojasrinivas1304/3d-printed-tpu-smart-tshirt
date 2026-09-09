@@ -2,7 +2,17 @@
 
 Reproducibility materials for the manuscript **“3D-printed TPU sensor-embedded loose T-shirt for wireless upper-body posture sensing.”**
 
-> **Release status:** public reproducibility package, released on 9 September 2026. Remaining maintenance checks are documented in [`PUBLIC_RELEASE_CHECKLIST.md`](PUBLIC_RELEASE_CHECKLIST.md).
+**Release:** version 1.0.0, 9 September 2026.
+
+## Participant datasets
+
+The analysis-ready, de-identified files are:
+
+- [`subject_01.csv`](data/processed/subject_01.csv) — S01, 16,900 rows
+- [`subject_02.csv`](data/processed/subject_02.csv) — S02, 16,900 rows
+- [`subject_03.csv`](data/processed/subject_03.csv) — S03, 16,901 rows
+
+Each file is approximately 8.7 MB. GitHub may display “Sorry about that, but we can’t show files that are this big.” If that happens, select **Download raw file** on the file page. Column definitions and processing notes are provided in [`data/processed/README.md`](data/processed/README.md) and [`docs/data_dictionary.md`](docs/data_dictionary.md).
 
 ## Contents
 
@@ -11,8 +21,8 @@ Reproducibility materials for the manuscript **“3D-printed TPU sensor-embedded
 - `data/processed/`: approved, de-identified analysis files for Subjects 1–3.
 - `hardware/esp32_ble/`: ten-channel `TSHIRT_01` BLE firmware used with the primary acquisition script.
 - `hardware/legacy_wifi_udp/`: sanitized Wi-Fi/UDP prototype code retained for engineering reference only.
-- `results/analysis/`: generated analysis outputs; these are not committed by default.
-- `docs/`: data schema, ethics/release guidance, and hardware status.
+- `results/analysis/`: reference results and instructions for regenerating analysis outputs.
+- `docs/`: data schema, ethics statement, date-correction record, and hardware status.
 
 ## Python setup
 
@@ -44,24 +54,16 @@ Do not use names, initials, emails, medical-record numbers, or other direct iden
 
 ## MATLAB analysis
 
-The three analysis-ready files are:
-
-```text
-data/processed/subject_01.csv
-data/processed/subject_02.csv
-data/processed/subject_03.csv
-```
-
-Then run the scripts in `code/analysis/`. Outputs are written to `results/analysis/`.
+Run the scripts in `code/analysis/`; outputs are written to `results/analysis/`. The committed classification configuration matches the manuscript: random forest, 80 trees, minimum leaf size 2, uniform class priors, base seed 42, one deterministic run, and 20%, 30%, and 50% sample-level test fractions.
 
 The classification script requires MATLAB's Statistics and Machine Learning Toolbox when `classifierType` is set to `randomforest` or `knn`.
 
 ## Data and ethics
 
-The acquisition computer recorded an incorrect June calendar date. After the author confirmed that all three recordings were collected on 3 September 2026, the public copies were corrected by applying a constant date offset while preserving time of day, fractional seconds, sample spacing, elapsed time, and all sensor measurements. The original workbooks remain unchanged outside this repository, and their checksums and correction offsets are recorded in [`docs/date_correction_log.md`](docs/date_correction_log.md).
+The acquisition computer recorded an incorrect June calendar date. All three recordings were collected on 3 September 2026. The public copies were corrected with a constant date offset that preserves time of day, fractional seconds, sample spacing, elapsed time, and sensor measurements. The original workbooks remain unchanged outside this repository; their checksums and correction offsets are recorded in [`docs/date_correction_log.md`](docs/date_correction_log.md).
 
-The authors report that public participant-data sharing is permitted. Public CSVs use S01–S03, omit the direct-name row, and omit absolute Unix timestamps. See [`docs/ethics_and_data_release.md`](docs/ethics_and_data_release.md).
+The public release is limited to de-identified sensor time series. The CSVs use S01–S03 and exclude names, contact information, the participant identity key, consent records, and absolute Unix timestamps. See [`docs/ethics_and_data_release.md`](docs/ethics_and_data_release.md).
 
-## Citation and reuse
+## Citation
 
-Citation metadata are available in [`CITATION.cff`](CITATION.cff). A formal software/data license is intentionally deferred and can be added later if requested by the supervising author, institution, repository, or journal. Until then, public visibility does not itself grant legal reuse rights.
+Citation metadata are available in [`CITATION.cff`](CITATION.cff). When reporting results, cite the exact repository commit used in addition to the associated manuscript.

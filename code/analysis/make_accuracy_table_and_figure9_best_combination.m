@@ -12,12 +12,13 @@
 % Subject names are anonymized in all outputs:
 %   Subject 1, Subject 2, Subject 3
 %
-% Recommended workflow:
-%   - First run with nRepeats = 1 and nTrees = 60 to check runtime.
-%   - For final manuscript results, use nRepeats = 5 or 10 and nTrees = 100-200.
+% Manuscript configuration:
+%   - nRepeats = 1, nTrees = 80, and randomSeed = 42.
+%   - Increasing nRepeats can be used for a separate sensitivity analysis,
+%     but those additional repetitions are not part of the reported results.
 %
 % Outputs are saved in:
-%   analysis_outputs/
+%   results/analysis/
 %
 % Main outputs:
 %   combination_accuracy_detailed.csv
@@ -54,8 +55,8 @@ combinationSizes = [1 2 3];
 testFractions = [0.20 0.30 0.50];
 testFractionLabels = {'20-80','30-70','50-50'};
 
-% For a quick test, use nRepeats = 1.
-% For final manuscript numbers, use nRepeats = 5 or 10.
+% The manuscript reports one deterministic run. Change this only for an
+% explicitly identified sensitivity analysis.
 nRepeats = 1;
 randomSeed = 42;
 

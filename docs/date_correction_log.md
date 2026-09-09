@@ -1,6 +1,6 @@
 # Acquisition-clock correction log
 
-The author confirmed that all three recordings were collected on **3 September 2026** and that the acquisition computer's calendar date was incorrect. The original workbooks remain unchanged outside this repository.
+All three recordings were collected on **3 September 2026**. The June dates in the source workbooks resulted from an incorrect acquisition-computer calendar setting. The original workbooks remain unchanged outside this repository.
 
 For each subject, a constant whole-day offset was added to every `pc_time_unix_s` value in the corrected audit workbook. This preserves local time of day, fractional seconds, sample spacing, elapsed time, protocol labels, and raw ADC measurements. Each `session_id` date prefix was changed to `20260903`, and subject IDs were assigned as S01–S03. The `r_s1_ohm` through `r_s10_ohm` columns were recalculated from the unchanged ADC values using the verified 3.3 kΩ fixed resistor and `R = Rf × ADC / (4095 − ADC)`. The normalized `dr_s1` through `dr_s10` values are unchanged because the constant resistance scale factor cancels in ΔR/R0. The public CSVs omit `pc_time_unix_s` because it is unnecessary for the analyses.
 

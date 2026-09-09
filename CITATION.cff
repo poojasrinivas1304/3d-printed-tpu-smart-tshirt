@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated manuscript and the archived software release."
+message: "If you use these materials, please cite the associated manuscript and the exact repository version used."
 title: "Reproducibility materials for a 3D-printed TPU sensor-embedded loose T-shirt"
 type: software
 authors:
@@ -9,5 +9,7 @@ authors:
     given-names: Pooja
   - family-names: Chierico
     given-names: Pietro
-version: 0.1.0-staging
-
+version: 1.0.0
+date-released: 2026-09-09
+repository-code: "https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt"
+url: "https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt"
