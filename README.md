@@ -2,7 +2,7 @@
 
 Reproducibility materials for the manuscript **“3D-printed TPU sensor-embedded loose T-shirt for wireless upper-body posture sensing.”**
 
-> **Release status:** private staging copy. Do not make this repository public until every item in [`PUBLIC_RELEASE_CHECKLIST.md`](PUBLIC_RELEASE_CHECKLIST.md) is resolved.
+> **Release status:** public reproducibility package, released on 9 September 2026. Remaining maintenance checks are documented in [`PUBLIC_RELEASE_CHECKLIST.md`](PUBLIC_RELEASE_CHECKLIST.md).
 
 ## Contents
 
