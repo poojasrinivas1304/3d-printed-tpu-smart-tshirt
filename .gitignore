@@ -1,0 +1,21 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+__pycache__/
+*.py[cod]
+*.asv
+
+# Local credentials and device configuration
+secrets.h
+.env
+.env.*
+
+# Participant-level data are private by default
+private_data/
+data/raw/
+data/processed/*.json
+
+# Generated results
+results/analysis/*
+!results/analysis/README.md

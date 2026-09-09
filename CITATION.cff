@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and the archived software release."
+title: "Reproducibility materials for a 3D-printed TPU sensor-embedded loose T-shirt"
+type: software
+authors:
+  - family-names: Elgendi
+    given-names: Mohamed
+  - family-names: Gurram
+    given-names: Pooja
+  - family-names: Chierico
+    given-names: Pietro
+version: 0.1.0-staging
+
