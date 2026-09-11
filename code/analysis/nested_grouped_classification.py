@@ -557,6 +557,7 @@ def make_figure(
     ax.bar_label(transition_bars, fmt="%.1f", padding=3, fontsize=8)
     ax.legend(frameon=False, loc="upper center", ncol=2)
     ax.grid(axis="y", alpha=0.25)
+    ax.set_box_aspect(1)
 
     fig.savefig(out_path, dpi=600, bbox_inches="tight", facecolor="white")
     plt.close(fig)
