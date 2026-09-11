@@ -540,19 +540,19 @@ def make_figure(
     per = periods[(periods["configuration"] == "Full 10") & (periods["participant"] != "All")]
     pivot = per.pivot(index="participant", columns="period", values="error_rate").reindex(["S1", "S2", "S3"]) * 100
     ax = axes[1, 1]
-    x = np.arange(3); width = 0.34
+    x = np.arange(3); width = 0.26
     held_bars = ax.bar(
         x - width/2, pivot["Held posture"], width, label="Held posture",
-        color="#56B4E9", edgecolor="black", linewidth=0.9,
+        color="#9ecae1", edgecolor="#1f1f1f", linewidth=0.8,
     )
     transition_bars = ax.bar(
         x + width/2, pivot["Transition"], width, label="Transition",
-        color="#E69F00", edgecolor="black", linewidth=0.9,
+        color="#3182bd", edgecolor="#1f1f1f", linewidth=0.8,
     )
     ax.set_xticks(x, ["S1", "S2", "S3"])
     ax.set_ylabel("Error rate (%)")
     ax.set_title("d  Errors during held and transition periods", loc="left", fontweight="bold")
-    ax.set_ylim(0, 88)
+    ax.set_ylim(0, 100)
     ax.bar_label(held_bars, fmt="%.1f", padding=3, fontsize=8)
     ax.bar_label(transition_bars, fmt="%.1f", padding=3, fontsize=8)
     ax.legend(frameon=False, loc="upper center", ncol=2)
