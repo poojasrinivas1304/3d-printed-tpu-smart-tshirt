@@ -31,6 +31,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
 from sklearn.metrics import (
@@ -483,10 +484,14 @@ def make_figure(
 ) -> None:
     configs = ["Selected 1", "Selected 2", "Selected 3", "Full 10"]
     colors = ["#9ecae1", "#6baed6", "#3182bd", "#08519c"]
-    fig = plt.figure(figsize=(13.2, 9.2), constrained_layout=True)
-    grid = fig.add_gridspec(2, 2)
+    fig, axes = plt.subplots(2, 2, figsize=(13.2, 9.2), constrained_layout=False)
+    # Keep all four analytical panels on the same two-column grid.  Inset
+    # colorbars prevent the heatmaps from shrinking their axes and displacing
+    # panels (b) and (d) relative to one another.
+    fig.subplots_adjust(left=0.07, right=0.92, bottom=0.08, top=0.95,
+                        wspace=0.27, hspace=0.30)
 
-    ax = fig.add_subplot(grid[0, 0])
+    ax = axes[0, 0]
     for i, (config, color) in enumerate(zip(configs, colors)):
         values = folds.loc[folds["configuration"] == config, "outer_balanced_accuracy"].to_numpy() * 100
         ax.scatter(np.full_like(values, i, dtype=float), values, color=color, edgecolor="black", s=42, zorder=3)
@@ -498,7 +503,7 @@ def make_figure(
 
     d = predictions[(predictions["configuration"] == "Full 10") & (predictions["period"] == "Held posture")]
     cm = confusion_matrix(d["position_index"], d["predicted_position"], labels=POSITIONS, normalize="true") * 100
-    ax = fig.add_subplot(grid[0, 1])
+    ax = axes[0, 1]
     im = ax.imshow(cm, cmap="Blues", vmin=0, vmax=100)
     for r in range(8):
         for c in range(8):
@@ -507,11 +512,16 @@ def make_figure(
     ax.set_xticks(range(8), range(1, 9)); ax.set_yticks(range(8), range(1, 9))
     ax.set_xlabel("Predicted position"); ax.set_ylabel("True position")
     ax.set_title("b  Ten-sensor out-of-fold confusion matrix", loc="left", fontweight="bold")
-    fig.colorbar(im, ax=ax, label="Recall within true class (%)", shrink=0.85)
+    cax = inset_axes(
+        ax, width="3.5%", height="85%", loc="lower left",
+        bbox_to_anchor=(1.04, 0.075, 1, 1), bbox_transform=ax.transAxes,
+        borderpad=0,
+    )
+    fig.colorbar(im, cax=cax, label="Recall within true class (%)")
 
     rec = posture[(posture["configuration"] == "Full 10") & (posture["participant"] != "All")]
     heat = rec.pivot(index="participant", columns="position", values="recall").reindex(index=["S1", "S2", "S3"], columns=POSITIONS) * 100
-    ax = fig.add_subplot(grid[1, 0])
+    ax = axes[1, 0]
     im2 = ax.imshow(heat.to_numpy(), cmap="YlGnBu", vmin=0, vmax=100, aspect="auto")
     for r in range(heat.shape[0]):
         for c in range(heat.shape[1]):
@@ -520,18 +530,32 @@ def make_figure(
     ax.set_xticks(range(8), range(1, 9)); ax.set_yticks(range(3), ["S1", "S2", "S3"])
     ax.set_xlabel("Position"); ax.set_ylabel("Participant")
     ax.set_title("c  Ten-sensor recall by participant and posture", loc="left", fontweight="bold")
-    fig.colorbar(im2, ax=ax, shrink=0.85)
+    cax2 = inset_axes(
+        ax, width="3.5%", height="85%", loc="lower left",
+        bbox_to_anchor=(1.04, 0.075, 1, 1), bbox_transform=ax.transAxes,
+        borderpad=0,
+    )
+    fig.colorbar(im2, cax=cax2)
 
     per = periods[(periods["configuration"] == "Full 10") & (periods["participant"] != "All")]
     pivot = per.pivot(index="participant", columns="period", values="error_rate").reindex(["S1", "S2", "S3"]) * 100
-    ax = fig.add_subplot(grid[1, 1])
+    ax = axes[1, 1]
     x = np.arange(3); width = 0.34
-    ax.bar(x - width/2, pivot["Held posture"], width, label="Held posture", color="#74c476", edgecolor="black")
-    ax.bar(x + width/2, pivot["Transition"], width, label="Transition", color="#fb6a4a", edgecolor="black")
+    held_bars = ax.bar(
+        x - width/2, pivot["Held posture"], width, label="Held posture",
+        color="#56B4E9", edgecolor="black", linewidth=0.9,
+    )
+    transition_bars = ax.bar(
+        x + width/2, pivot["Transition"], width, label="Transition",
+        color="#E69F00", edgecolor="black", linewidth=0.9,
+    )
     ax.set_xticks(x, ["S1", "S2", "S3"])
     ax.set_ylabel("Error rate (%)")
     ax.set_title("d  Errors during held and transition periods", loc="left", fontweight="bold")
-    ax.legend(frameon=False)
+    ax.set_ylim(0, 88)
+    ax.bar_label(held_bars, fmt="%.1f", padding=3, fontsize=8)
+    ax.bar_label(transition_bars, fmt="%.1f", padding=3, fontsize=8)
+    ax.legend(frameon=False, loc="upper center", ncol=2)
     ax.grid(axis="y", alpha=0.25)
 
     fig.savefig(out_path, dpi=600, bbox_inches="tight", facecolor="white")
