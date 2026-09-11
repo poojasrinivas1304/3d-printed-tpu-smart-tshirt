@@ -1,4 +1,14 @@
 %% make_accuracy_table_and_figure9_best_combination.m
+% LEGACY EXPLORATORY ANALYSIS -- DO NOT USE FOR MANUSCRIPT PERFORMANCE CLAIMS.
+%
+% This historical script uses random sample-level partitions after temporal
+% features have been generated. Adjacent and overlapping measurements from a
+% posture repetition can therefore occur in both training and test sets. That
+% design is not leakage-resistant. The manuscript analysis is implemented in
+% nested_grouped_classification.py, which keeps complete repetitions together,
+% nests sensor selection inside the outer training data, and compares the
+% selected subsets with the ten-sensor baseline on identical outer folds.
+%
 % Exhaustive sensor-combination screening + Figure 9 for the best combination.
 %
 % This script does two things:
@@ -12,13 +22,12 @@
 % Subject names are anonymized in all outputs:
 %   Subject 1, Subject 2, Subject 3
 %
-% Manuscript configuration:
-%   - nRepeats = 1, nTrees = 80, and randomSeed = 42.
-%   - Increasing nRepeats can be used for a separate sensitivity analysis,
-%     but those additional repetitions are not part of the reported results.
+% Recommended workflow:
+%   - First run with nRepeats = 1 and nTrees = 60 to check runtime.
+%   - For final manuscript results, use nRepeats = 5 or 10 and nTrees = 100-200.
 %
 % Outputs are saved in:
-%   results/analysis/
+%   analysis_outputs/
 %
 % Main outputs:
 %   combination_accuracy_detailed.csv
@@ -55,8 +64,8 @@ combinationSizes = [1 2 3];
 testFractions = [0.20 0.30 0.50];
 testFractionLabels = {'20-80','30-70','50-50'};
 
-% The manuscript reports one deterministic run. Change this only for an
-% explicitly identified sensitivity analysis.
+% For a quick test, use nRepeats = 1.
+% For final manuscript numbers, use nRepeats = 5 or 10.
 nRepeats = 1;
 randomSeed = 42;
 

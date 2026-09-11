@@ -1,0 +1,30 @@
+{
+  "validation": "participant-specific five outer folds by repetition number; four inner folds by repetition number",
+  "selection": "nested sequential forward selection (single, then pair, then triplet)",
+  "group_definition": "target set + repetition within participant; all reference, transition and hold samples kept together",
+  "normalization": "acquisition-time delta R/R0 using median resistance in the recording's initial five-second standing baseline",
+  "features": [
+    "mean",
+    "std",
+    "median",
+    "iqr",
+    "minimum",
+    "maximum",
+    "slope"
+  ],
+  "primary_analysis": "held-posture windows",
+  "transition_analysis": "secondary predictions from the held-posture-trained model",
+  "feature_window_samples": 20,
+  "feature_windows_overlap": 0,
+  "inner_trees": 20,
+  "outer_trees": 100,
+  "inner_stride": 1,
+  "random_seed": 42,
+  "software": {
+    "python": "3.14.5",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.9"
+  }
+}

@@ -1,0 +1,161 @@
+configuration,participant,position,posture,support,recall
+Selected 1,All,1,Standing straight,1017,0.5378564405113078
+Selected 1,All,2,Left arm raise,143,0.2727272727272727
+Selected 1,All,3,Right arm raise,143,0.24475524475524477
+Selected 1,All,4,Left shoulder touch and twist,144,0.3680555555555556
+Selected 1,All,5,Right shoulder touch and twist,147,0.35374149659863946
+Selected 1,All,6,Both arms raise,147,0.35374149659863946
+Selected 1,All,7,Forward bend,144,0.4722222222222222
+Selected 1,All,8,Sitting,147,0.272108843537415
+Selected 1,S1,1,Standing straight,337,0.6320474777448071
+Selected 1,S1,2,Left arm raise,49,0.20408163265306123
+Selected 1,S1,3,Right arm raise,47,0.3829787234042553
+Selected 1,S1,4,Left shoulder touch and twist,49,0.22448979591836735
+Selected 1,S1,5,Right shoulder touch and twist,49,0.20408163265306123
+Selected 1,S1,6,Both arms raise,50,0.18
+Selected 1,S1,7,Forward bend,48,0.7916666666666666
+Selected 1,S1,8,Sitting,48,0.3541666666666667
+Selected 1,S2,1,Standing straight,341,0.5161290322580645
+Selected 1,S2,2,Left arm raise,47,0.48936170212765956
+Selected 1,S2,3,Right arm raise,49,0.08163265306122448
+Selected 1,S2,4,Left shoulder touch and twist,47,0.425531914893617
+Selected 1,S2,5,Right shoulder touch and twist,49,0.6938775510204082
+Selected 1,S2,6,Both arms raise,48,0.625
+Selected 1,S2,7,Forward bend,48,0.1875
+Selected 1,S2,8,Sitting,49,0.08163265306122448
+Selected 1,S3,1,Standing straight,339,0.46607669616519176
+Selected 1,S3,2,Left arm raise,47,0.1276595744680851
+Selected 1,S3,3,Right arm raise,47,0.2765957446808511
+Selected 1,S3,4,Left shoulder touch and twist,48,0.4583333333333333
+Selected 1,S3,5,Right shoulder touch and twist,49,0.16326530612244897
+Selected 1,S3,6,Both arms raise,49,0.2653061224489796
+Selected 1,S3,7,Forward bend,48,0.4375
+Selected 1,S3,8,Sitting,50,0.38
+Selected 2,All,1,Standing straight,1017,0.5712881022615536
+Selected 2,All,2,Left arm raise,143,0.4755244755244755
+Selected 2,All,3,Right arm raise,143,0.3146853146853147
+Selected 2,All,4,Left shoulder touch and twist,144,0.4513888888888889
+Selected 2,All,5,Right shoulder touch and twist,147,0.4489795918367347
+Selected 2,All,6,Both arms raise,147,0.38095238095238093
+Selected 2,All,7,Forward bend,144,0.6111111111111112
+Selected 2,All,8,Sitting,147,0.36054421768707484
+Selected 2,S1,1,Standing straight,337,0.7151335311572701
+Selected 2,S1,2,Left arm raise,49,0.4489795918367347
+Selected 2,S1,3,Right arm raise,47,0.5106382978723404
+Selected 2,S1,4,Left shoulder touch and twist,49,0.22448979591836735
+Selected 2,S1,5,Right shoulder touch and twist,49,0.5510204081632653
+Selected 2,S1,6,Both arms raise,50,0.28
+Selected 2,S1,7,Forward bend,48,0.7291666666666666
+Selected 2,S1,8,Sitting,48,0.22916666666666666
+Selected 2,S2,1,Standing straight,341,0.5542521994134897
+Selected 2,S2,2,Left arm raise,47,0.44680851063829785
+Selected 2,S2,3,Right arm raise,49,0.22448979591836735
+Selected 2,S2,4,Left shoulder touch and twist,47,0.3404255319148936
+Selected 2,S2,5,Right shoulder touch and twist,49,0.4897959183673469
+Selected 2,S2,6,Both arms raise,48,0.6666666666666666
+Selected 2,S2,7,Forward bend,48,0.4583333333333333
+Selected 2,S2,8,Sitting,49,0.32653061224489793
+Selected 2,S3,1,Standing straight,339,0.44542772861356933
+Selected 2,S3,2,Left arm raise,47,0.5319148936170213
+Selected 2,S3,3,Right arm raise,47,0.2127659574468085
+Selected 2,S3,4,Left shoulder touch and twist,48,0.7916666666666666
+Selected 2,S3,5,Right shoulder touch and twist,49,0.30612244897959184
+Selected 2,S3,6,Both arms raise,49,0.20408163265306123
+Selected 2,S3,7,Forward bend,48,0.6458333333333334
+Selected 2,S3,8,Sitting,50,0.52
+Selected 3,All,1,Standing straight,1017,0.6302851524090463
+Selected 3,All,2,Left arm raise,143,0.44755244755244755
+Selected 3,All,3,Right arm raise,143,0.34965034965034963
+Selected 3,All,4,Left shoulder touch and twist,144,0.5069444444444444
+Selected 3,All,5,Right shoulder touch and twist,147,0.5102040816326531
+Selected 3,All,6,Both arms raise,147,0.4217687074829932
+Selected 3,All,7,Forward bend,144,0.6736111111111112
+Selected 3,All,8,Sitting,147,0.40816326530612246
+Selected 3,S1,1,Standing straight,337,0.7507418397626113
+Selected 3,S1,2,Left arm raise,49,0.42857142857142855
+Selected 3,S1,3,Right arm raise,47,0.5531914893617021
+Selected 3,S1,4,Left shoulder touch and twist,49,0.40816326530612246
+Selected 3,S1,5,Right shoulder touch and twist,49,0.5306122448979592
+Selected 3,S1,6,Both arms raise,50,0.3
+Selected 3,S1,7,Forward bend,48,0.7708333333333334
+Selected 3,S1,8,Sitting,48,0.20833333333333334
+Selected 3,S2,1,Standing straight,341,0.5571847507331378
+Selected 3,S2,2,Left arm raise,47,0.425531914893617
+Selected 3,S2,3,Right arm raise,49,0.22448979591836735
+Selected 3,S2,4,Left shoulder touch and twist,47,0.3404255319148936
+Selected 3,S2,5,Right shoulder touch and twist,49,0.5714285714285714
+Selected 3,S2,6,Both arms raise,48,0.75
+Selected 3,S2,7,Forward bend,48,0.4791666666666667
+Selected 3,S2,8,Sitting,49,0.4897959183673469
+Selected 3,S3,1,Standing straight,339,0.584070796460177
+Selected 3,S3,2,Left arm raise,47,0.48936170212765956
+Selected 3,S3,3,Right arm raise,47,0.2765957446808511
+Selected 3,S3,4,Left shoulder touch and twist,48,0.7708333333333334
+Selected 3,S3,5,Right shoulder touch and twist,49,0.42857142857142855
+Selected 3,S3,6,Both arms raise,49,0.22448979591836735
+Selected 3,S3,7,Forward bend,48,0.7708333333333334
+Selected 3,S3,8,Sitting,50,0.52
+Full 10,All,1,Standing straight,1017,0.7797443461160275
+Full 10,All,2,Left arm raise,143,0.6013986013986014
+Full 10,All,3,Right arm raise,143,0.46853146853146854
+Full 10,All,4,Left shoulder touch and twist,144,0.3333333333333333
+Full 10,All,5,Right shoulder touch and twist,147,0.5374149659863946
+Full 10,All,6,Both arms raise,147,0.5034013605442177
+Full 10,All,7,Forward bend,144,0.7430555555555556
+Full 10,All,8,Sitting,147,0.2857142857142857
+Full 10,S1,1,Standing straight,337,0.8160237388724035
+Full 10,S1,2,Left arm raise,49,0.5714285714285714
+Full 10,S1,3,Right arm raise,47,0.5319148936170213
+Full 10,S1,4,Left shoulder touch and twist,49,0.3877551020408163
+Full 10,S1,5,Right shoulder touch and twist,49,0.5714285714285714
+Full 10,S1,6,Both arms raise,50,0.46
+Full 10,S1,7,Forward bend,48,0.7708333333333334
+Full 10,S1,8,Sitting,48,0.25
+Full 10,S2,1,Standing straight,341,0.7741935483870968
+Full 10,S2,2,Left arm raise,47,0.723404255319149
+Full 10,S2,3,Right arm raise,49,0.4489795918367347
+Full 10,S2,4,Left shoulder touch and twist,47,0.0851063829787234
+Full 10,S2,5,Right shoulder touch and twist,49,0.6326530612244898
+Full 10,S2,6,Both arms raise,48,0.6666666666666666
+Full 10,S2,7,Forward bend,48,0.6875
+Full 10,S2,8,Sitting,49,0.20408163265306123
+Full 10,S3,1,Standing straight,339,0.7492625368731564
+Full 10,S3,2,Left arm raise,47,0.5106382978723404
+Full 10,S3,3,Right arm raise,47,0.425531914893617
+Full 10,S3,4,Left shoulder touch and twist,48,0.5208333333333334
+Full 10,S3,5,Right shoulder touch and twist,49,0.40816326530612246
+Full 10,S3,6,Both arms raise,49,0.3877551020408163
+Full 10,S3,7,Forward bend,48,0.7708333333333334
+Full 10,S3,8,Sitting,50,0.4
+Full 9 (S9 excluded),All,1,Standing straight,1017,0.7610619469026548
+Full 9 (S9 excluded),All,2,Left arm raise,143,0.5874125874125874
+Full 9 (S9 excluded),All,3,Right arm raise,143,0.5104895104895105
+Full 9 (S9 excluded),All,4,Left shoulder touch and twist,144,0.3333333333333333
+Full 9 (S9 excluded),All,5,Right shoulder touch and twist,147,0.3945578231292517
+Full 9 (S9 excluded),All,6,Both arms raise,147,0.5102040816326531
+Full 9 (S9 excluded),All,7,Forward bend,144,0.7708333333333334
+Full 9 (S9 excluded),All,8,Sitting,147,0.35374149659863946
+Full 9 (S9 excluded),S1,1,Standing straight,337,0.827893175074184
+Full 9 (S9 excluded),S1,2,Left arm raise,49,0.5102040816326531
+Full 9 (S9 excluded),S1,3,Right arm raise,47,0.5531914893617021
+Full 9 (S9 excluded),S1,4,Left shoulder touch and twist,49,0.3877551020408163
+Full 9 (S9 excluded),S1,5,Right shoulder touch and twist,49,0.5918367346938775
+Full 9 (S9 excluded),S1,6,Both arms raise,50,0.46
+Full 9 (S9 excluded),S1,7,Forward bend,48,0.7708333333333334
+Full 9 (S9 excluded),S1,8,Sitting,48,0.22916666666666666
+Full 9 (S9 excluded),S2,1,Standing straight,341,0.750733137829912
+Full 9 (S9 excluded),S2,2,Left arm raise,47,0.6808510638297872
+Full 9 (S9 excluded),S2,3,Right arm raise,49,0.4897959183673469
+Full 9 (S9 excluded),S2,4,Left shoulder touch and twist,47,0.14893617021276595
+Full 9 (S9 excluded),S2,5,Right shoulder touch and twist,49,0.2653061224489796
+Full 9 (S9 excluded),S2,6,Both arms raise,48,0.75
+Full 9 (S9 excluded),S2,7,Forward bend,48,0.75
+Full 9 (S9 excluded),S2,8,Sitting,49,0.3877551020408163
+Full 9 (S9 excluded),S3,1,Standing straight,339,0.7050147492625368
+Full 9 (S9 excluded),S3,2,Left arm raise,47,0.574468085106383
+Full 9 (S9 excluded),S3,3,Right arm raise,47,0.48936170212765956
+Full 9 (S9 excluded),S3,4,Left shoulder touch and twist,48,0.4583333333333333
+Full 9 (S9 excluded),S3,5,Right shoulder touch and twist,49,0.32653061224489793
+Full 9 (S9 excluded),S3,6,Both arms raise,49,0.32653061224489793
+Full 9 (S9 excluded),S3,7,Forward bend,48,0.7916666666666666
+Full 9 (S9 excluded),S3,8,Sitting,50,0.44

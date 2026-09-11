@@ -1,6 +1,6 @@
 bleak>=0.21,<2
 matplotlib>=3.7,<4
 numpy>=1.24,<3
-pandas>=2,<3
+pandas>=2,<4
 pyserial>=3.5,<4
-
+scikit-learn>=1.4,<2
