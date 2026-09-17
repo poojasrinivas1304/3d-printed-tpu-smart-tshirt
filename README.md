@@ -16,7 +16,7 @@ Each file is approximately 8.7 MB. GitHub may display “Sorry about that, but w
 
 ## Movement definitions
 
-Position 4 is **right hand touching the left shoulder with a leftward torso twist**. Position 5 is **left hand touching the right shoulder with a rightward torso twist**. Left and right are the participant's anatomical sides. The released CSV identifiers remain `touch_left_shoulder` and `touch_right_shoulder`, respectively. The acquisition labels and displayed instructions were reconciled on 17 September 2026. This label-only correction does not change the released recordings or classification results. See the [movement definitions](docs/data_dictionary.md#movement-labels) and [correction record](docs/movement_label_reconciliation.md).
+Position 4 is **right hand touching the left shoulder with a leftward torso twist**. Position 5 is **left hand touching the right shoulder with a rightward torso twist**. Left and right are the participant's anatomical sides. The released CSV identifiers remain `touch_left_shoulder` and `touch_right_shoulder`, respectively. See the [movement definitions](docs/data_dictionary.md#movement-labels) and [correction record](docs/movement_label_reconciliation.md).
 
 ## Contents
 
@@ -72,7 +72,7 @@ The MATLAB scripts document the earlier exploratory workflow. The former random 
 
 ## Data and ethics
 
-The acquisition computer recorded an incorrect June calendar date. All three recordings were collected on 3 September 2026. The public copies were corrected with a constant date offset that preserves time of day, fractional seconds, sample spacing, elapsed time, and sensor measurements. The original workbooks remain unchanged outside this repository; their checksums and correction offsets are recorded in [`docs/date_correction_log.md`](docs/date_correction_log.md).
+The acquisition computer recorded an incorrect June calendar date. The original workbooks remain unchanged outside this repository; their checksums and correction offsets are recorded in [`docs/date_correction_log.md`](docs/date_correction_log.md).
 
 The public release is limited to de-identified sensor time series. The CSVs use S01–S03 and exclude names, contact information, the participant identity key, consent records, and absolute Unix timestamps. See [`docs/ethics_and_data_release.md`](docs/ethics_and_data_release.md).
 
