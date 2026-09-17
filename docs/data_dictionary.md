@@ -1,11 +1,11 @@
 # Data dictionary
 
-Each row represents one sampled time point. The MATLAB analysis requires the following core fields; the acquisition program may provide additional quality-control fields.
+Each row represents one sampled time point. The table describes the main fields in the processed CSVs. The primary Python analysis uses the relative-time, protocol, normalized-response and quality-control fields; `pc_time_unix_s` is metadata and is not used for classification.
 
 | Field | Type | Description |
 |---|---|---|
 | `subject_id` | string | De-identified study code only. |
-| `session_id` | string | De-identified recording-session code. Avoid calendar timestamps in public releases unless approved. |
+| `pc_time_unix_s` | number | Corrected Unix timestamp in seconds, retained from the supplied exports. See the [date-correction record](date_correction_log.md). |
 | `sample_index` | integer | Sequential sample number. |
 | `elapsed_s` | number | Seconds from the start of the recording. |
 | `set_id` | integer | Protocol set number. |
@@ -20,7 +20,9 @@ Each row represents one sampled time point. The MATLAB analysis requires the fol
 | `qc_high_adc_s1` … `qc_high_adc_s10` | logical/integer | High/saturated ADC flags. |
 | `qc_low_adc_s1` … `qc_low_adc_s10` | logical/integer | Low/saturated ADC flags. |
 
-Public files should omit `pc_time_unix_s`, device addresses, network addresses, names, initials, contact details, consent documentation, and the private identifier key unless their inclusion has been specifically approved.
+The current exports omit `session_id`, which was present in the earlier CSV release. One recording is provided per subject file.
+
+Public files should omit device addresses, network addresses, names, initials, contact details, consent documentation, and the private identifier key unless their inclusion has been specifically approved.
 
 ## Movement labels
 
