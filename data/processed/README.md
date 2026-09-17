@@ -10,7 +10,7 @@ Each CSV is approximately 8.1 MB and may exceed GitHub's browser-preview limit. 
 
 The public IDs are S01, S02, and S03. The mapping to identities must remain outside the repository in an access-controlled location.
 
-Resistance columns use the 3.3 kΩ fixed resistor. Analysis uses `elapsed_s` and the existing protocol fields. See [`../../docs/date_correction_log.md`](../../docs/date_correction_log.md).
+Resistance columns use the 3.3 kΩ fixed resistor. Analysis uses `elapsed_s` and the existing protocol fields. See [historical date-correction record](https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt/blob/77f5903a51cf0245eb49df8fd5a12bf64484f926/docs/date_correction_log.md).
 
 Only the non-data title row above the column headers was removed from each supplied export. All data rows and values were retained as supplied. Compared with the earlier release, raw ADC measurements, movement labels, quality flags and row counts are identical; derived values have small export-rounding differences (up to 0.05 Ω for resistance). Original source files and previous Git revisions remain unchanged.
 

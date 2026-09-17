@@ -5,7 +5,7 @@ Each row represents one sampled time point. The table describes the main fields 
 | Field | Type | Description |
 |---|---|---|
 | `subject_id` | string | De-identified study code only. |
-| `pc_time_unix_s` | number | Corrected Unix timestamp in seconds, retained from the supplied exports. See the [date-correction record](date_correction_log.md). |
+| `pc_time_unix_s` | number | Corrected Unix timestamp in seconds, retained from the supplied exports. See the [historical date-correction record](https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt/blob/77f5903a51cf0245eb49df8fd5a12bf64484f926/docs/date_correction_log.md). |
 | `sample_index` | integer | Sequential sample number. |
 | `elapsed_s` | number | Seconds from the start of the recording. |
 | `set_id` | integer | Protocol set number. |
