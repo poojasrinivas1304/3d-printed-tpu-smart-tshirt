@@ -72,8 +72,6 @@ The MATLAB scripts document the earlier exploratory workflow. The former random 
 
 ## Data and ethics
 
-The acquisition computer recorded an incorrect June calendar date. The original workbooks remain unchanged outside this repository; their checksums and correction offsets are recorded in [`docs/date_correction_log.md`](docs/date_correction_log.md).
-
 The public release is limited to de-identified sensor time series. The CSVs use S01–S03 and exclude names, contact information, the participant identity key, consent records, and absolute Unix timestamps. See [`docs/ethics_and_data_release.md`](docs/ethics_and_data_release.md).
 
 ## Citation
