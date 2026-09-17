@@ -48,6 +48,9 @@ from joblib import Parallel, delayed
 
 SEED = 42
 POSITIONS = tuple(range(1, 9))
+# In Positions 4/5, left/right identifies both the shoulder touched and torso
+# twist direction; the opposite hand touches that shoulder. The numeric classes
+# and feature/validation calculations are unchanged by this label clarification.
 POSITION_NAMES = {
     1: "Standing straight",
     2: "Left arm raise",

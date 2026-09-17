@@ -43,15 +43,25 @@ from bleak import BleakClient, BleakScanner
 DEFAULT_NOTIFY_CHAR_UUID = "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
 
 
+# Labels reconciled on 2026-09-17 with released data and investigator confirmation.
+# See docs/movement_label_reconciliation.md; this is a label correction, not a
+# claim that this exact script version generated the historical recordings.
 POSITION_NAMES = {
     1: "standing_straight",
     2: "raise_left_arm",
     3: "raise_right_arm",
-    4: "cross_arms",
-    5: "touch_left_shoulder",
+    4: "touch_left_shoulder",
+    5: "touch_right_shoulder",
     6: "raise_both_arms",
     7: "bend_forward",
     8: "sit",
+}
+
+
+# Anatomical left/right refer to the participant, not the observer.
+POSITION_INSTRUCTIONS = {
+    4: "right hand touching the left shoulder, torso twisted to the left",
+    5: "left hand touching the right shoulder, torso twisted to the right",
 }
 
 
@@ -611,6 +621,7 @@ async def run_collection(args) -> None:
             for target_position in range(2, 9):
                 set_id = target_position - 1
                 target_name = POSITION_NAMES[target_position]
+                target_instruction = POSITION_INSTRUCTIONS.get(target_position, target_name)
 
                 for rep in range(1, args.repeats + 1):
                     await set_segment(
@@ -648,7 +659,7 @@ async def run_collection(args) -> None:
                         rep=rep,
                         instruction=(
                             f"SET {set_id}, REP {rep}: Move to Position "
-                            f"{target_position} ({target_name})."
+                            f"{target_position} ({target_instruction})."
                         ),
                     )
 
@@ -661,7 +672,7 @@ async def run_collection(args) -> None:
                         rep=rep,
                         instruction=(
                             f"SET {set_id}, REP {rep}: HOLD Position "
-                            f"{target_position} ({target_name})."
+                            f"{target_position} ({target_instruction})."
                         ),
                     )
 

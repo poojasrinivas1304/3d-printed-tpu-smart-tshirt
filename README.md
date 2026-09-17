@@ -14,6 +14,10 @@ The analysis-ready, de-identified files are:
 
 Each file is approximately 8.7 MB. GitHub may display “Sorry about that, but we can’t show files that are this big.” If that happens, select **Download raw file** on the file page. Column definitions and processing notes are provided in [`data/processed/README.md`](data/processed/README.md) and [`docs/data_dictionary.md`](docs/data_dictionary.md).
 
+## Movement definitions
+
+Position 4 is **right hand touching the left shoulder with a leftward torso twist**. Position 5 is **left hand touching the right shoulder with a rightward torso twist**. Left and right are the participant's anatomical sides. The released CSV identifiers remain `touch_left_shoulder` and `touch_right_shoulder`, respectively. The acquisition labels and displayed instructions were reconciled on 17 September 2026. This label-only correction does not change the released recordings or classification results. See the [movement definitions](docs/data_dictionary.md#movement-labels) and [correction record](docs/movement_label_reconciliation.md).
+
 ## Contents
 
 - `code/acquisition/`: BLE discovery, acquisition, preprocessing, and plotting.
