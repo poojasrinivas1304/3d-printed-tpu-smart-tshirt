@@ -60,7 +60,9 @@ The ten-sensor held-posture error rate was 36.22%, compared with 76.88% during t
 
 ## Author-confirmed reporting details
 
-- The conductive element was a commercially sourced graphene-based conductive TPU filament; the manufacturer and exact product designation were not recorded.
-- The garment was a nylon-based activewear T-shirt. The precise fibre blend and garment dimensions were not recorded beyond the manufacturer's XL size designation.
+The material descriptions below incorporate the author's subsequent confirmation of the product and garment; earlier wording remains available in Git history.
+
+- The conductive filament was **Conductive Filaflex, manufactured by Recreus**, as confirmed by the author.
+- The garment was a **Zoofly polyester T-shirt**, size XL, as confirmed by the author. An exact fibre percentage and textile-construction specifications were not available.
 - Three adults approximately 30 years of age participated (one female and two males). The size-XL garment accommodated all participants and was deliberately loose fitting.
 - Eligibility required age of at least 18 years, capacity to provide informed consent, ability to wear the sensorized T-shirt safely and comfortably, and ability to perform the prescribed voluntary movements.

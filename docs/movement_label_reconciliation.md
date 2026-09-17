@@ -19,10 +19,22 @@ The `POSITION_NAMES` entries and displayed instructions in `code/acquisition/tsh
 
 This is a retrospective correction of code labels and documentation, not evidence that this exact acquisition-script version generated the historical recordings. It does not resolve separate differences in acquisition timing or export schema. Historical code and provenance copies in a pinned analysis archive retain their original content; use this correction record when interpreting their earlier movement names.
 
-All rows in the three released participant CSVs were checked for agreement between `position_index` and `position_name`. All eight mappings agree across the files. No original recordings, released CSVs, timestamps, numeric class indices, sensor measurements, normalization, validation partitions or classification calculations were changed. The primary analysis already uses the correct numeric classes and the labels shown above, so its numerical results are unaffected.
+At the time of the movement-label correction, all rows in the three then-released participant CSVs were checked for agreement between `position_index` and `position_name`. All eight mappings agreed across the files. That label-correction step changed no original recordings, released CSVs, timestamps, numeric class indices, sensor measurements, normalization, validation partitions or classification calculations. The primary analysis already used the correct numeric classes and the labels shown above, so the label correction did not change its numerical results. The later replacement of the public CSV exports is a separate change, documented below.
 
-The released CSV Git blob identifiers remain:
+## Historical CSV version checked during label reconciliation
+
+The following Git blob identifiers refer to the earlier data version available at [commit d0ea9b7](https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt/tree/d0ea9b719da7cabf6b3acbf312914fc7f2f9db13/data/processed). They are historical identifiers, not the current CSV checksums:
 
 - `subject_01.csv`: `aa3c6058da105805ff09dcc564a69d1935a61b09`
 - `subject_02.csv`: `98b885bde4d0566574cfff9a123c2660a2242c09`
 - `subject_03.csv`: `5e204f30f9f4530676f7a82d9894f7443906cdb2`
+
+## Current supplied CSV exports
+
+The replacement exports were introduced in [commit 899a984](https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt/commit/899a984b25b5ff510d84a702cf7b74f8dc64f4b6). Their Git blob identifiers are:
+
+- `subject_01.csv`: `475e77097760d0642c400b4001deb8e209344a93`
+- `subject_02.csv`: `96a096cf6c703cbeed5f615327b741a0c778e00f`
+- `subject_03.csv`: `572e1fb108a21adb8a84693af0d4aabad530ed69`
+
+See the [processed-data notes](../data/processed/README.md) for export preparation and rounding differences and the [data dictionary](data_dictionary.md) for the current schema. The historical identifiers above are retained to keep the two data versions distinguishable.
