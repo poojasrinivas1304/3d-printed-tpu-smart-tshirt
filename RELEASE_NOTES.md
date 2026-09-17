@@ -13,9 +13,9 @@ This release provides the de-identified participant datasets, the ESP32 BLE stud
 - Raw ADC acquisition at approximately 20 Hz.
 - Random-forest manuscript configuration: 80 trees, minimum leaf size 2, uniform priors, base seed 42, and one deterministic run.
 
-### Data protection
+### Dataset documentation
 
-The public CSVs exclude direct names, contact information, the participant identity key, signed consent forms, device and network addresses, and absolute Unix timestamps. The acquisition-clock correction and original-file checksums are documented in `docs/date_correction_log.md`.
+See [`docs/data_dictionary.md`](docs/data_dictionary.md) for the current CSV fields. The acquisition-clock correction and original-file checksums are documented in the [historical date-correction record](https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt/blob/77f5903a51cf0245eb49df8fd5a12bf64484f926/docs/date_correction_log.md).
 
 ### Scope
 

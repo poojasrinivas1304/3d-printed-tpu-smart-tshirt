@@ -22,8 +22,6 @@ Each row represents one sampled time point. The table describes the main fields 
 
 The current exports omit `session_id`, which was present in the earlier CSV release. One recording is provided per subject file.
 
-Public files should omit device addresses, network addresses, names, initials, contact details, consent documentation, and the private identifier key unless their inclusion has been specifically approved.
-
 ## Movement labels
 
 Left and right refer to the participant's anatomical sides. The `position_name` identifiers are unchanged in the released CSVs. For Positions 4 and 5, the identifier names the shoulder touched; the opposite hand touches that shoulder while the torso twists toward it.

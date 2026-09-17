@@ -6,9 +6,8 @@
 - Approval date: **2 September 2026**.
 - Data-collection date: **3 September 2026**.
 - Written informed consent was obtained from every participant before participation.
-- Public sharing is limited to the de-identified sensor measurements in `data/processed/`. Ethics correspondence, signed consent forms, and the participant identity key are controlled study records and are not public repository materials.
-
+- The participant datasets are available in `data/processed/`.
 
 ## Public-release scope
 
-The public CSVs contain posture-protocol labels and sensor measurements only. They exclude names, initials, contact information, medical information, device and network addresses, the participant identity key, signed consent documentation, and absolute Unix timestamps. Public identifiers S01–S03 are repository-specific codes and are not derived from participant names.
+The public CSVs contain timing metadata, posture-protocol labels, sensor measurements, and quality-control flags. Participant identifiers are S01–S03. See the [data dictionary](data_dictionary.md) for field definitions.

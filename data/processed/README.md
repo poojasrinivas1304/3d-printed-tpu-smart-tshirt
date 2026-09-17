@@ -8,7 +8,7 @@ This directory contains the approved, de-identified analysis files:
 
 Each CSV is approximately 8.1 MB and may exceed GitHub's browser-preview limit. Use **Download raw file** on the file page to obtain the complete CSV; no data are omitted from the downloadable file.
 
-The public IDs are S01, S02, and S03. The mapping to identities must remain outside the repository in an access-controlled location.
+The public IDs are S01, S02, and S03.
 
 Resistance columns use the 3.3 kΩ fixed resistor. Analysis uses `elapsed_s` and the existing protocol fields. See [historical date-correction record](https://github.com/poojasrinivas1304/3d-printed-tpu-smart-tshirt/blob/77f5903a51cf0245eb49df8fd5a12bf64484f926/docs/date_correction_log.md).
 
