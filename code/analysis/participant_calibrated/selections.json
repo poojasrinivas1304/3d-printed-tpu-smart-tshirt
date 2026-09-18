@@ -1,0 +1,3182 @@
+[
+  {
+    "participant": "S1",
+    "outer_rep": 1,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "adc7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.75,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6634057971014493,
+        "macro_recall": 0.6067307692307692,
+        "macro_f1": 0.606165897089464,
+        "accuracy": 0.746268656716418,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7872925685425685,
+        "macro_recall": 0.8474264705882353,
+        "macro_f1": 0.7994342489571498,
+        "accuracy": 0.8175182481751825,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.841859243697479,
+        "macro_recall": 0.7516998341625207,
+        "macro_f1": 0.7738884731250016,
+        "accuracy": 0.7910447761194029,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7669572275550536,
+        "macro_recall": 0.7053104575163398,
+        "macro_f1": 0.7014193987277928,
+        "accuracy": 0.7279411764705882,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.720227004474852,
+    "mean_accuracy": 0.770693214370398,
+    "mean_balanced_accuracy": 0.7277918828744663
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 1,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.75,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6634057971014493,
+        "macro_recall": 0.6067307692307692,
+        "macro_f1": 0.606165897089464,
+        "accuracy": 0.746268656716418,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7872925685425685,
+        "macro_recall": 0.8474264705882353,
+        "macro_f1": 0.7994342489571498,
+        "accuracy": 0.8175182481751825,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.841859243697479,
+        "macro_recall": 0.7516998341625207,
+        "macro_f1": 0.7738884731250016,
+        "accuracy": 0.7910447761194029,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7669572275550536,
+        "macro_recall": 0.7053104575163398,
+        "macro_f1": 0.7014193987277928,
+        "accuracy": 0.7279411764705882,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.720227004474852,
+    "mean_accuracy": 0.770693214370398,
+    "mean_balanced_accuracy": 0.7277918828744663
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 1,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "res7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.75,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.7740722441809398,
+        "macro_recall": 0.5764957264957264,
+        "macro_f1": 0.5855756725581567,
+        "accuracy": 0.7164179104477612,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7438060128277519,
+        "macro_recall": 0.8011029411764705,
+        "macro_f1": 0.7661473996665206,
+        "accuracy": 0.8029197080291971,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8115372742707208,
+        "macro_recall": 0.7956260364842456,
+        "macro_f1": 0.7841703735581937,
+        "accuracy": 0.7910447761194029,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.746377964141122,
+        "macro_recall": 0.7613970588235295,
+        "macro_f1": 0.7050640593164956,
+        "accuracy": 0.7279411764705882,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.7102393762748416,
+    "mean_accuracy": 0.7595808927667373,
+    "mean_balanced_accuracy": 0.7336554407449931
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 1,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.75,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6634057971014493,
+        "macro_recall": 0.6067307692307692,
+        "macro_f1": 0.606165897089464,
+        "accuracy": 0.746268656716418,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7872925685425685,
+        "macro_recall": 0.8474264705882353,
+        "macro_f1": 0.7994342489571498,
+        "accuracy": 0.8175182481751825,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.841859243697479,
+        "macro_recall": 0.7516998341625207,
+        "macro_f1": 0.7738884731250016,
+        "accuracy": 0.7910447761194029,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7669572275550536,
+        "macro_recall": 0.7053104575163398,
+        "macro_f1": 0.7014193987277928,
+        "accuracy": 0.7279411764705882,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.720227004474852,
+    "mean_accuracy": 0.770693214370398,
+    "mean_balanced_accuracy": 0.7277918828744663
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 2,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4462393075674325,
+        "macro_recall": 0.43592995169082127,
+        "macro_f1": 0.420153145750467,
+        "accuracy": 0.49264705882352944,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7267597534044903,
+        "macro_recall": 0.8183823529411764,
+        "macro_f1": 0.7580692482921247,
+        "accuracy": 0.7445255474452555,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8104166666666667,
+        "macro_recall": 0.863681592039801,
+        "macro_f1": 0.8269896405732833,
+        "accuracy": 0.8283582089552238,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7481060606060606,
+        "macro_recall": 0.7155228758169935,
+        "macro_f1": 0.7022998728163693,
+        "accuracy": 0.7205882352941176,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6768779768580611,
+    "mean_accuracy": 0.6965297626295316,
+    "mean_balanced_accuracy": 0.7083791931221981
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 2,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4462393075674325,
+        "macro_recall": 0.43592995169082127,
+        "macro_f1": 0.420153145750467,
+        "accuracy": 0.49264705882352944,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7267597534044903,
+        "macro_recall": 0.8183823529411764,
+        "macro_f1": 0.7580692482921247,
+        "accuracy": 0.7445255474452555,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8104166666666667,
+        "macro_recall": 0.863681592039801,
+        "macro_f1": 0.8269896405732833,
+        "accuracy": 0.8283582089552238,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7481060606060606,
+        "macro_recall": 0.7155228758169935,
+        "macro_f1": 0.7022998728163693,
+        "accuracy": 0.7205882352941176,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6768779768580611,
+    "mean_accuracy": 0.6965297626295316,
+    "mean_balanced_accuracy": 0.7083791931221981
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 2,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4542624521072797,
+        "macro_recall": 0.45024154589371984,
+        "macro_f1": 0.42832286643802386,
+        "accuracy": 0.5073529411764706,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7353050071703322,
+        "macro_recall": 0.8540441176470588,
+        "macro_f1": 0.7738439078779938,
+        "accuracy": 0.7591240875912408,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7739308008375805,
+        "macro_recall": 0.81181592039801,
+        "macro_f1": 0.7854197101488123,
+        "accuracy": 0.7910447761194029,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7158735795454545,
+        "macro_recall": 0.712295751633987,
+        "macro_f1": 0.6907112624217888,
+        "accuracy": 0.7132352941176471,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6695744367216547,
+    "mean_accuracy": 0.6926892747511904,
+    "mean_balanced_accuracy": 0.7070993338931939
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 2,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4462393075674325,
+        "macro_recall": 0.43592995169082127,
+        "macro_f1": 0.420153145750467,
+        "accuracy": 0.49264705882352944,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7267597534044903,
+        "macro_recall": 0.8183823529411764,
+        "macro_f1": 0.7580692482921247,
+        "accuracy": 0.7445255474452555,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8104166666666667,
+        "macro_recall": 0.863681592039801,
+        "macro_f1": 0.8269896405732833,
+        "accuracy": 0.8283582089552238,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7481060606060606,
+        "macro_recall": 0.7155228758169935,
+        "macro_f1": 0.7022998728163693,
+        "accuracy": 0.7205882352941176,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6768779768580611,
+    "mean_accuracy": 0.6965297626295316,
+    "mean_balanced_accuracy": 0.7083791931221981
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 3,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "res7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4822916666666667,
+        "macro_recall": 0.4961956521739131,
+        "macro_f1": 0.47069199534315814,
+        "accuracy": 0.5147058823529411,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6064874195292151,
+        "macro_recall": 0.8028846153846154,
+        "macro_f1": 0.6547937414880647,
+        "accuracy": 0.6044776119402985,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8410965322904495,
+        "macro_recall": 0.8396351575456052,
+        "macro_f1": 0.8198501428948838,
+        "accuracy": 0.8283582089552238,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.730938376470947,
+        "macro_recall": 0.6668709150326797,
+        "macro_f1": 0.6708189694629489,
+        "accuracy": 0.7132352941176471,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.654038712297264,
+    "mean_accuracy": 0.6651942493415277,
+    "mean_balanced_accuracy": 0.7013965850342033
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 3,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4593391941806121,
+        "macro_recall": 0.40869565217391307,
+        "macro_f1": 0.4176243068077433,
+        "accuracy": 0.4632352941176471,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5859554334554334,
+        "macro_recall": 0.8221153846153846,
+        "macro_f1": 0.6497803739037961,
+        "accuracy": 0.5970149253731343,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7995121155016469,
+        "macro_recall": 0.8090796019900498,
+        "macro_f1": 0.774357938230936,
+        "accuracy": 0.8134328358208955,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.6864556023006727,
+        "macro_recall": 0.6418709150326798,
+        "macro_f1": 0.6479445233018055,
+        "accuracy": 0.6985294117647058,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6224267855610702,
+    "mean_accuracy": 0.6430531167690957,
+    "mean_balanced_accuracy": 0.6704403884530068
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 3,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "res7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4822916666666667,
+        "macro_recall": 0.4961956521739131,
+        "macro_f1": 0.47069199534315814,
+        "accuracy": 0.5147058823529411,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6064874195292151,
+        "macro_recall": 0.8028846153846154,
+        "macro_f1": 0.6547937414880647,
+        "accuracy": 0.6044776119402985,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8410965322904495,
+        "macro_recall": 0.8396351575456052,
+        "macro_f1": 0.8198501428948838,
+        "accuracy": 0.8283582089552238,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.730938376470947,
+        "macro_recall": 0.6668709150326797,
+        "macro_f1": 0.6708189694629489,
+        "accuracy": 0.7132352941176471,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.654038712297264,
+    "mean_accuracy": 0.6651942493415277,
+    "mean_balanced_accuracy": 0.7013965850342033
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 3,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "res5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.48476562500000003,
+        "macro_recall": 0.45869565217391306,
+        "macro_f1": 0.4580012531328321,
+        "accuracy": 0.49264705882352944,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5504550334565066,
+        "macro_recall": 0.7548076923076923,
+        "macro_f1": 0.6042962840161116,
+        "accuracy": 0.582089552238806,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8087121212121211,
+        "macro_recall": 0.8044776119402985,
+        "macro_f1": 0.7949694459671446,
+        "accuracy": 0.8208955223880597,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7249384602325779,
+        "macro_recall": 0.6775326797385621,
+        "macro_f1": 0.6741494072376426,
+        "accuracy": 0.7132352941176471,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6328540975884327,
+    "mean_accuracy": 0.6522168568920106,
+    "mean_balanced_accuracy": 0.6738784090401165
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 4,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "res7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4674688432912117,
+        "macro_recall": 0.4518719806763285,
+        "macro_f1": 0.43369950221478015,
+        "accuracy": 0.47058823529411764,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6857260612194822,
+        "macro_recall": 0.725,
+        "macro_f1": 0.6873067288609261,
+        "accuracy": 0.6716417910447762,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6514292424122146,
+        "macro_recall": 0.7875,
+        "macro_f1": 0.6907863004729422,
+        "accuracy": 0.6642335766423357,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.6921123548922057,
+        "macro_recall": 0.623406862745098,
+        "macro_f1": 0.6320844847160636,
+        "accuracy": 0.6617647058823529,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.610969254066178,
+    "mean_accuracy": 0.6170570772158956,
+    "mean_balanced_accuracy": 0.6469447108553567
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 4,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.44092897842897844,
+        "macro_recall": 0.420048309178744,
+        "macro_f1": 0.39451397803451715,
+        "accuracy": 0.4338235294117647,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6871413308913309,
+        "macro_recall": 0.8028846153846154,
+        "macro_f1": 0.7214526931304631,
+        "accuracy": 0.6865671641791045,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6667301448551448,
+        "macro_recall": 0.819485294117647,
+        "macro_f1": 0.7078681844346806,
+        "accuracy": 0.6642335766423357,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.642184655408975,
+        "macro_recall": 0.5451797385620915,
+        "macro_f1": 0.5550020885547201,
+        "accuracy": 0.6102941176470589,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.5947092360385953,
+    "mean_accuracy": 0.5987295969700659,
+    "mean_balanced_accuracy": 0.6468994893107745
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 4,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "res7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4674688432912117,
+        "macro_recall": 0.4518719806763285,
+        "macro_f1": 0.43369950221478015,
+        "accuracy": 0.47058823529411764,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6857260612194822,
+        "macro_recall": 0.725,
+        "macro_f1": 0.6873067288609261,
+        "accuracy": 0.6716417910447762,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6514292424122146,
+        "macro_recall": 0.7875,
+        "macro_f1": 0.6907863004729422,
+        "accuracy": 0.6642335766423357,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.6921123548922057,
+        "macro_recall": 0.623406862745098,
+        "macro_f1": 0.6320844847160636,
+        "accuracy": 0.6617647058823529,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.610969254066178,
+    "mean_accuracy": 0.6170570772158956,
+    "mean_balanced_accuracy": 0.6469447108553567
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 4,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "res5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4333080808080808,
+        "macro_recall": 0.3884057971014493,
+        "macro_f1": 0.36278409090909086,
+        "accuracy": 0.4411764705882353,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6976381257631258,
+        "macro_recall": 0.7625,
+        "macro_f1": 0.7073627389669795,
+        "accuracy": 0.6940298507462687,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6609883172383173,
+        "macro_recall": 0.7911764705882354,
+        "macro_f1": 0.6998427880347118,
+        "accuracy": 0.6788321167883211,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.6936401725347621,
+        "macro_recall": 0.6131944444444444,
+        "macro_f1": 0.6255276263049853,
+        "accuracy": 0.6691176470588235,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.5988793110539419,
+    "mean_accuracy": 0.6207890212954121,
+    "mean_balanced_accuracy": 0.6388191780335322
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 5,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "adc7_20_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_20_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.569555107055107,
+        "macro_recall": 0.4786231884057971,
+        "macro_f1": 0.5104051005753791,
+        "accuracy": 0.5735294117647058,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6260612375031314,
+        "macro_recall": 0.7366452991452992,
+        "macro_f1": 0.6437057003094739,
+        "accuracy": 0.6044776119402985,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7714861462926479,
+        "macro_recall": 0.8683823529411765,
+        "macro_f1": 0.7940346209429161,
+        "accuracy": 0.7737226277372263,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7628217063886131,
+        "macro_recall": 0.8135986733001659,
+        "macro_f1": 0.7687946158499697,
+        "accuracy": 0.7611940298507462,
+        "support": 134
+      }
+    ],
+    "mean_macro_f1": 0.6792350094194347,
+    "mean_accuracy": 0.6782309203232442,
+    "mean_balanced_accuracy": 0.7243123784481096
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 5,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.48723133591554646,
+        "macro_recall": 0.4088768115942029,
+        "macro_f1": 0.43577686821855177,
+        "accuracy": 0.5073529411764706,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6004871289701011,
+        "macro_recall": 0.8082264957264957,
+        "macro_f1": 0.6563952227183112,
+        "accuracy": 0.5895522388059702,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.759252523239697,
+        "macro_recall": 0.8790441176470588,
+        "macro_f1": 0.7948713258043887,
+        "accuracy": 0.7737226277372263,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7880616509926854,
+        "macro_recall": 0.7946724709784412,
+        "macro_f1": 0.7685717060717061,
+        "accuracy": 0.7761194029850746,
+        "support": 134
+      }
+    ],
+    "mean_macro_f1": 0.6639037807032395,
+    "mean_accuracy": 0.6616868026761854,
+    "mean_balanced_accuracy": 0.7227049739865496
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 5,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_20_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_20_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.569555107055107,
+        "macro_recall": 0.4786231884057971,
+        "macro_f1": 0.5104051005753791,
+        "accuracy": 0.5735294117647058,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6260612375031314,
+        "macro_recall": 0.7366452991452992,
+        "macro_f1": 0.6437057003094739,
+        "accuracy": 0.6044776119402985,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7714861462926479,
+        "macro_recall": 0.8683823529411765,
+        "macro_f1": 0.7940346209429161,
+        "accuracy": 0.7737226277372263,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7628217063886131,
+        "macro_recall": 0.8135986733001659,
+        "macro_f1": 0.7687946158499697,
+        "accuracy": 0.7611940298507462,
+        "support": 134
+      }
+    ],
+    "mean_macro_f1": 0.6792350094194347,
+    "mean_accuracy": 0.6782309203232442,
+    "mean_balanced_accuracy": 0.7243123784481096
+  },
+  {
+    "participant": "S1",
+    "outer_rep": 5,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.48723133591554646,
+        "macro_recall": 0.4088768115942029,
+        "macro_f1": 0.43577686821855177,
+        "accuracy": 0.5073529411764706,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6004871289701011,
+        "macro_recall": 0.8082264957264957,
+        "macro_f1": 0.6563952227183112,
+        "accuracy": 0.5895522388059702,
+        "support": 134
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.759252523239697,
+        "macro_recall": 0.8790441176470588,
+        "macro_f1": 0.7948713258043887,
+        "accuracy": 0.7737226277372263,
+        "support": 137
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7880616509926854,
+        "macro_recall": 0.7946724709784412,
+        "macro_f1": 0.7685717060717061,
+        "accuracy": 0.7761194029850746,
+        "support": 134
+      }
+    ],
+    "mean_macro_f1": 0.6639037807032395,
+    "mean_accuracy": 0.6616868026761854,
+    "mean_balanced_accuracy": 0.7227049739865496
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 1,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.75,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.7452614810899695,
+        "macro_recall": 0.6706521739130435,
+        "macro_f1": 0.6603401887070618,
+        "accuracy": 0.7703703703703704,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7931112421383648,
+        "macro_recall": 0.8561774461028192,
+        "macro_f1": 0.7970951150298977,
+        "accuracy": 0.7761194029850746,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.754428363538533,
+        "macro_recall": 0.8140151515151515,
+        "macro_f1": 0.7740339753126131,
+        "accuracy": 0.7720588235294118,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.810813492063492,
+        "macro_recall": 0.7652777777777777,
+        "macro_f1": 0.7454847236097237,
+        "accuracy": 0.781021897810219,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.744238500664824,
+    "mean_accuracy": 0.774892623673769,
+    "mean_balanced_accuracy": 0.7765306373271981
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 1,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.75,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.7465226464148877,
+        "macro_recall": 0.643840579710145,
+        "macro_f1": 0.6595078253359987,
+        "accuracy": 0.7481481481481481,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.8605811403508772,
+        "macro_recall": 0.7614635157545606,
+        "macro_f1": 0.7769213629507747,
+        "accuracy": 0.8134328358208955,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7493964368964369,
+        "macro_recall": 0.6571969696969697,
+        "macro_f1": 0.6535787245055285,
+        "accuracy": 0.6985294117647058,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7247340978831851,
+        "macro_recall": 0.794047619047619,
+        "macro_f1": 0.7277634000460087,
+        "accuracy": 0.7445255474452555,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.7044428282095777,
+    "mean_accuracy": 0.7511589857947514,
+    "mean_balanced_accuracy": 0.7141371710523235
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 1,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_40_history_m1",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "feature_key": "adc7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6503546579922291,
+        "macro_recall": 0.7342995169082125,
+        "macro_f1": 0.6527421386702222,
+        "accuracy": 0.6962962962962963,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7128985893788525,
+        "macro_recall": 0.8578358208955223,
+        "macro_f1": 0.733470695970696,
+        "accuracy": 0.6865671641791045,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6436272061272061,
+        "macro_recall": 0.7931818181818182,
+        "macro_f1": 0.6992301653342843,
+        "accuracy": 0.6911764705882353,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.8349204385048306,
+        "macro_recall": 0.861904761904762,
+        "macro_f1": 0.8188519858374385,
+        "accuracy": 0.8029197080291971,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.7260737464531603,
+    "mean_accuracy": 0.7192399097732083,
+    "mean_balanced_accuracy": 0.8118054794725788
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 1,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.75,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.7452614810899695,
+        "macro_recall": 0.6706521739130435,
+        "macro_f1": 0.6603401887070618,
+        "accuracy": 0.7703703703703704,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7931112421383648,
+        "macro_recall": 0.8561774461028192,
+        "macro_f1": 0.7970951150298977,
+        "accuracy": 0.7761194029850746,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.754428363538533,
+        "macro_recall": 0.8140151515151515,
+        "macro_f1": 0.7740339753126131,
+        "accuracy": 0.7720588235294118,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.810813492063492,
+        "macro_recall": 0.7652777777777777,
+        "macro_f1": 0.7454847236097237,
+        "accuracy": 0.781021897810219,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.744238500664824,
+    "mean_accuracy": 0.774892623673769,
+    "mean_balanced_accuracy": 0.7765306373271981
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 2,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.763830759294469,
+        "macro_recall": 0.7817028985507246,
+        "macro_f1": 0.759682993675399,
+        "accuracy": 0.7720588235294118,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6791468206715885,
+        "macro_recall": 0.7403814262023217,
+        "macro_f1": 0.6892481014159707,
+        "accuracy": 0.6865671641791045,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8394993456450875,
+        "macro_recall": 0.8022727272727272,
+        "macro_f1": 0.8062210264222648,
+        "accuracy": 0.8088235294117647,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7811334498834499,
+        "macro_recall": 0.718452380952381,
+        "macro_f1": 0.7363385057715761,
+        "accuracy": 0.7591240875912408,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.7478726568213027,
+    "mean_accuracy": 0.7566434011778804,
+    "mean_balanced_accuracy": 0.7607023582445386
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 2,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.7566709773277569,
+        "macro_recall": 0.8076690821256038,
+        "macro_f1": 0.7668399514411028,
+        "accuracy": 0.7794117647058824,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7140194235588972,
+        "macro_recall": 0.7417703150912106,
+        "macro_f1": 0.6909915789597747,
+        "accuracy": 0.6865671641791045,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.738938492063492,
+        "macro_recall": 0.8015151515151515,
+        "macro_f1": 0.7563336517283885,
+        "accuracy": 0.7647058823529411,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7496101609657948,
+        "macro_recall": 0.6938492063492063,
+        "macro_f1": 0.6960976661532043,
+        "accuracy": 0.708029197080292,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.7275657120706176,
+    "mean_accuracy": 0.734678502079555,
+    "mean_balanced_accuracy": 0.7612009387702932
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 2,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_20_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_20_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.7358495670995671,
+        "macro_recall": 0.7923913043478261,
+        "macro_f1": 0.7469609153064664,
+        "accuracy": 0.7720588235294118,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7346990997656925,
+        "macro_recall": 0.7662935323383084,
+        "macro_f1": 0.7183366402116402,
+        "accuracy": 0.6940298507462687,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7721002853355795,
+        "macro_recall": 0.7928030303030303,
+        "macro_f1": 0.7650169920793843,
+        "accuracy": 0.7720588235294118,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7376488095238095,
+        "macro_recall": 0.709126984126984,
+        "macro_f1": 0.6958508403361345,
+        "accuracy": 0.7153284671532847,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.7315413469834063,
+    "mean_accuracy": 0.7383689912395943,
+    "mean_balanced_accuracy": 0.7651537127790373
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 2,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.763830759294469,
+        "macro_recall": 0.7817028985507246,
+        "macro_f1": 0.759682993675399,
+        "accuracy": 0.7720588235294118,
+        "support": 136
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6791468206715885,
+        "macro_recall": 0.7403814262023217,
+        "macro_f1": 0.6892481014159707,
+        "accuracy": 0.6865671641791045,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.8394993456450875,
+        "macro_recall": 0.8022727272727272,
+        "macro_f1": 0.8062210264222648,
+        "accuracy": 0.8088235294117647,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7811334498834499,
+        "macro_recall": 0.718452380952381,
+        "macro_f1": 0.7363385057715761,
+        "accuracy": 0.7591240875912408,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.7478726568213027,
+    "mean_accuracy": 0.7566434011778804,
+    "mean_balanced_accuracy": 0.7607023582445386
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 3,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.7408152679849883,
+        "macro_recall": 0.7558574879227054,
+        "macro_f1": 0.7091353430026199,
+        "accuracy": 0.7426470588235294,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5132730015082956,
+        "macro_recall": 0.7958937198067633,
+        "macro_f1": 0.5872734172403378,
+        "accuracy": 0.5111111111111111,
+        "support": 135
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.738160518444666,
+        "macro_recall": 0.7564393939393939,
+        "macro_f1": 0.7172636165577342,
+        "accuracy": 0.7132352941176471,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7522456709956711,
+        "macro_recall": 0.6617063492063492,
+        "macro_f1": 0.6928648732220161,
+        "accuracy": 0.708029197080292,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.676634312505677,
+    "mean_accuracy": 0.6687556652831449,
+    "mean_balanced_accuracy": 0.7424742377188029
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 3,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.680988455988456,
+        "macro_recall": 0.7302536231884058,
+        "macro_f1": 0.6532873179472778,
+        "accuracy": 0.6764705882352942,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5352521929824561,
+        "macro_recall": 0.7785628019323672,
+        "macro_f1": 0.6015154334668708,
+        "accuracy": 0.5333333333333333,
+        "support": 135
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6993262316888478,
+        "macro_recall": 0.7431818181818182,
+        "macro_f1": 0.6932958648856216,
+        "accuracy": 0.6617647058823529,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7032037815126051,
+        "macro_recall": 0.5746031746031746,
+        "macro_f1": 0.6180837347345887,
+        "accuracy": 0.6642335766423357,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.6415455877585896,
+    "mean_accuracy": 0.633950551023329,
+    "mean_balanced_accuracy": 0.7066503544764413
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 3,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.7132312132312133,
+        "macro_recall": 0.7044685990338164,
+        "macro_f1": 0.6518758606001169,
+        "accuracy": 0.7132352941176471,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5563457923655293,
+        "macro_recall": 0.8031400966183575,
+        "macro_f1": 0.6128053406703295,
+        "accuracy": 0.5407407407407407,
+        "support": 135
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7272719571699648,
+        "macro_recall": 0.7045454545454545,
+        "macro_f1": 0.6651865206552706,
+        "accuracy": 0.6764705882352942,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7263949938949938,
+        "macro_recall": 0.6581349206349206,
+        "macro_f1": 0.6743215526078352,
+        "accuracy": 0.6934306569343066,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.651047318633388,
+    "mean_accuracy": 0.6559693200069971,
+    "mean_balanced_accuracy": 0.7175722677081373
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 3,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.7408152679849883,
+        "macro_recall": 0.7558574879227054,
+        "macro_f1": 0.7091353430026199,
+        "accuracy": 0.7426470588235294,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5132730015082956,
+        "macro_recall": 0.7958937198067633,
+        "macro_f1": 0.5872734172403378,
+        "accuracy": 0.5111111111111111,
+        "support": 135
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.738160518444666,
+        "macro_recall": 0.7564393939393939,
+        "macro_f1": 0.7172636165577342,
+        "accuracy": 0.7132352941176471,
+        "support": 136
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7522456709956711,
+        "macro_recall": 0.6617063492063492,
+        "macro_f1": 0.6928648732220161,
+        "accuracy": 0.708029197080292,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.676634312505677,
+    "mean_accuracy": 0.6687556652831449,
+    "mean_balanced_accuracy": 0.7424742377188029
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 4,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6755656108597285,
+        "macro_recall": 0.658635265700483,
+        "macro_f1": 0.6109261232864434,
+        "accuracy": 0.6911764705882353,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.566985876589535,
+        "macro_recall": 0.7419685990338164,
+        "macro_f1": 0.6285179970677682,
+        "accuracy": 0.5851851851851851,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.735969212246302,
+        "macro_recall": 0.8065713101160862,
+        "macro_f1": 0.7416638019077807,
+        "accuracy": 0.7164179104477612,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7870021753681392,
+        "macro_recall": 0.6549603174603175,
+        "macro_f1": 0.677535060613621,
+        "accuracy": 0.7299270072992701,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.6646607457189033,
+    "mean_accuracy": 0.6806766433801129,
+    "mean_balanced_accuracy": 0.7155338730776758
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 4,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.721797263681592,
+        "macro_recall": 0.7279589371980676,
+        "macro_f1": 0.7075004781080632,
+        "accuracy": 0.75,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.4879054569152076,
+        "macro_recall": 0.753683574879227,
+        "macro_f1": 0.5665479363492857,
+        "accuracy": 0.4962962962962963,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7056868924419234,
+        "macro_recall": 0.7394278606965174,
+        "macro_f1": 0.6868480923411842,
+        "accuracy": 0.6716417910447762,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7640151515151515,
+        "macro_recall": 0.5966269841269842,
+        "macro_f1": 0.6104594185008198,
+        "accuracy": 0.6934306569343066,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.6428389813248382,
+    "mean_accuracy": 0.6528421860688448,
+    "mean_balanced_accuracy": 0.704424339225199
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 4,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6521859217171717,
+        "macro_recall": 0.6652777777777779,
+        "macro_f1": 0.6009280923754607,
+        "accuracy": 0.6691176470588235,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5582614624797287,
+        "macro_recall": 0.7806763285024154,
+        "macro_f1": 0.624699683957555,
+        "accuracy": 0.562962962962963,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7290694776714514,
+        "macro_recall": 0.7995854063018242,
+        "macro_f1": 0.7205112986960744,
+        "accuracy": 0.6940298507462687,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.8080024644030668,
+        "macro_recall": 0.643452380952381,
+        "macro_f1": 0.6595333587980646,
+        "accuracy": 0.7153284671532847,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.6514181084567887,
+    "mean_accuracy": 0.6603597319803349,
+    "mean_balanced_accuracy": 0.7222479733835997
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 4,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6755656108597285,
+        "macro_recall": 0.658635265700483,
+        "macro_f1": 0.6109261232864434,
+        "accuracy": 0.6911764705882353,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.566985876589535,
+        "macro_recall": 0.7419685990338164,
+        "macro_f1": 0.6285179970677682,
+        "accuracy": 0.5851851851851851,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.735969212246302,
+        "macro_recall": 0.8065713101160862,
+        "macro_f1": 0.7416638019077807,
+        "accuracy": 0.7164179104477612,
+        "support": 134
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7870021753681392,
+        "macro_recall": 0.6549603174603175,
+        "macro_f1": 0.677535060613621,
+        "accuracy": 0.7299270072992701,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.6646607457189033,
+    "mean_accuracy": 0.6806766433801129,
+    "mean_balanced_accuracy": 0.7155338730776758
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 5,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "adc7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6444972307104659,
+        "macro_recall": 0.7611714975845411,
+        "macro_f1": 0.6639773343577692,
+        "accuracy": 0.6397058823529411,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5309658951299818,
+        "macro_recall": 0.8115942028985508,
+        "macro_f1": 0.5941460563553587,
+        "accuracy": 0.5259259259259259,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7580613830613832,
+        "macro_recall": 0.7525290215588722,
+        "macro_f1": 0.7415239350021958,
+        "accuracy": 0.746268656716418,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.748829816017316,
+        "macro_recall": 0.7583333333333333,
+        "macro_f1": 0.7335389283918696,
+        "accuracy": 0.7205882352941176,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6832965635267984,
+    "mean_accuracy": 0.6581221750723507,
+    "mean_balanced_accuracy": 0.7709070138438244
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 5,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6191693722943723,
+        "macro_recall": 0.707548309178744,
+        "macro_f1": 0.6062636687015692,
+        "accuracy": 0.5955882352941176,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.4997768979386627,
+        "macro_recall": 0.769927536231884,
+        "macro_f1": 0.5715194148698605,
+        "accuracy": 0.5037037037037037,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7458479020979021,
+        "macro_recall": 0.7367744610281923,
+        "macro_f1": 0.7271686394549499,
+        "accuracy": 0.7313432835820896,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.7327641108891109,
+        "macro_recall": 0.7496212121212121,
+        "macro_f1": 0.7230844848893383,
+        "accuracy": 0.7279411764705882,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6570090519789294,
+    "mean_accuracy": 0.6396440997626248,
+    "mean_balanced_accuracy": 0.7409678796400081
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 5,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6444972307104659,
+        "macro_recall": 0.7611714975845411,
+        "macro_f1": 0.6639773343577692,
+        "accuracy": 0.6397058823529411,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5309658951299818,
+        "macro_recall": 0.8115942028985508,
+        "macro_f1": 0.5941460563553587,
+        "accuracy": 0.5259259259259259,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7580613830613832,
+        "macro_recall": 0.7525290215588722,
+        "macro_f1": 0.7415239350021958,
+        "accuracy": 0.746268656716418,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.748829816017316,
+        "macro_recall": 0.7583333333333333,
+        "macro_f1": 0.7335389283918696,
+        "accuracy": 0.7205882352941176,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6832965635267984,
+    "mean_accuracy": 0.6581221750723507,
+    "mean_balanced_accuracy": 0.7709070138438244
+  },
+  {
+    "participant": "S2",
+    "outer_rep": 5,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6035925511508952,
+        "macro_recall": 0.6954710144927536,
+        "macro_f1": 0.6107679839230182,
+        "accuracy": 0.5955882352941176,
+        "support": 136
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5520833333333334,
+        "macro_recall": 0.8170289855072463,
+        "macro_f1": 0.6151564733573816,
+        "accuracy": 0.5481481481481482,
+        "support": 135
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7735528360528361,
+        "macro_recall": 0.7668946932006633,
+        "macro_f1": 0.7625506642050759,
+        "accuracy": 0.7611940298507462,
+        "support": 134
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6845508658008658,
+        "macro_recall": 0.7151515151515152,
+        "macro_f1": 0.6895903975625337,
+        "accuracy": 0.6764705882352942,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6695163797620023,
+    "mean_accuracy": 0.6453502503820765,
+    "mean_balanced_accuracy": 0.7486365520880446
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 1,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "adc7_20_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_20",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.789781746031746,
+        "macro_recall": 0.7050724637681158,
+        "macro_f1": 0.7251217222328812,
+        "accuracy": 0.7608695652173914,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7133410369823414,
+        "macro_recall": 0.8408167495854063,
+        "macro_f1": 0.759201200849684,
+        "accuracy": 0.7293233082706767,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6424925768675769,
+        "macro_recall": 0.7175245098039216,
+        "macro_f1": 0.669314986273538,
+        "accuracy": 0.656934306569343,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7095767512856762,
+        "macro_recall": 0.749877450980392,
+        "macro_f1": 0.7033041337317654,
+        "accuracy": 0.6985294117647058,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.7142355107719671,
+    "mean_accuracy": 0.7114141479555292,
+    "mean_balanced_accuracy": 0.7533227935344591
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 1,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_20_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_20",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.789781746031746,
+        "macro_recall": 0.7050724637681158,
+        "macro_f1": 0.7251217222328812,
+        "accuracy": 0.7608695652173914,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7133410369823414,
+        "macro_recall": 0.8408167495854063,
+        "macro_f1": 0.759201200849684,
+        "accuracy": 0.7293233082706767,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6424925768675769,
+        "macro_recall": 0.7175245098039216,
+        "macro_f1": 0.669314986273538,
+        "accuracy": 0.656934306569343,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7095767512856762,
+        "macro_recall": 0.749877450980392,
+        "macro_f1": 0.7033041337317654,
+        "accuracy": 0.6985294117647058,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.7142355107719671,
+    "mean_accuracy": 0.7114141479555292,
+    "mean_balanced_accuracy": 0.7533227935344591
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 1,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.7519861894861894,
+        "macro_recall": 0.6928140096618357,
+        "macro_f1": 0.6981100164044538,
+        "accuracy": 0.717391304347826,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6879280072764116,
+        "macro_recall": 0.7972844112769486,
+        "macro_f1": 0.7260087719298245,
+        "accuracy": 0.6992481203007519,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6447503885003885,
+        "macro_recall": 0.6995098039215686,
+        "macro_f1": 0.6579390055656433,
+        "accuracy": 0.6277372262773723,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7740566037735849,
+        "macro_recall": 0.8133169934640523,
+        "macro_f1": 0.7607810310652297,
+        "accuracy": 0.7279411764705882,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.7107097062412878,
+    "mean_accuracy": 0.6930794568491346,
+    "mean_balanced_accuracy": 0.7507313045811014
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 1,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc7_20",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.789781746031746,
+        "macro_recall": 0.7050724637681158,
+        "macro_f1": 0.7251217222328812,
+        "accuracy": 0.7608695652173914,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7133410369823414,
+        "macro_recall": 0.8408167495854063,
+        "macro_f1": 0.759201200849684,
+        "accuracy": 0.7293233082706767,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6424925768675769,
+        "macro_recall": 0.7175245098039216,
+        "macro_f1": 0.669314986273538,
+        "accuracy": 0.656934306569343,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7095767512856762,
+        "macro_recall": 0.749877450980392,
+        "macro_f1": 0.7033041337317654,
+        "accuracy": 0.6985294117647058,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.7142355107719671,
+    "mean_accuracy": 0.7114141479555292,
+    "mean_balanced_accuracy": 0.7533227935344591
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 2,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "candidate_id": "working_reference",
+      "feature_key": "res5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5030238858363858,
+        "macro_recall": 0.4898217247097844,
+        "macro_f1": 0.46145398349126976,
+        "accuracy": 0.49624060150375937,
+        "support": 133
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.5679017061370002,
+        "macro_recall": 0.7841003316749585,
+        "macro_f1": 0.6326956381724422,
+        "accuracy": 0.5864661654135338,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6333241959064326,
+        "macro_recall": 0.7120098039215687,
+        "macro_f1": 0.657042165682938,
+        "accuracy": 0.635036496350365,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7246469927921542,
+        "macro_recall": 0.6568627450980392,
+        "macro_f1": 0.6311247062551616,
+        "accuracy": 0.625,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.5955791234004529,
+    "mean_accuracy": 0.5856858158169145,
+    "mean_balanced_accuracy": 0.6606986513510876
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 2,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_20_m1",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "feature_key": "adc7_20",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4861942807594981,
+        "macro_recall": 0.47311359867330016,
+        "macro_f1": 0.4120734105408148,
+        "accuracy": 0.46616541353383456,
+        "support": 133
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6095551378446115,
+        "macro_recall": 0.8267205638474295,
+        "macro_f1": 0.6676390722103064,
+        "accuracy": 0.6240601503759399,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6956395855102752,
+        "macro_recall": 0.7498774509803922,
+        "macro_f1": 0.708968253968254,
+        "accuracy": 0.7007299270072993,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.6203921983813288,
+        "macro_recall": 0.6356209150326797,
+        "macro_f1": 0.5868858238047621,
+        "accuracy": 0.5882352941176471,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.5938916401310343,
+    "mean_accuracy": 0.5947976962586802,
+    "mean_balanced_accuracy": 0.6713331321334504
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 2,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "res7_20_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_20_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5046863894811655,
+        "macro_recall": 0.48712686567164176,
+        "macro_f1": 0.4544974754717915,
+        "accuracy": 0.5338345864661654,
+        "support": 133
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6031324068088775,
+        "macro_recall": 0.749502487562189,
+        "macro_f1": 0.6465219294730487,
+        "accuracy": 0.6240601503759399,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6224362990810359,
+        "macro_recall": 0.5887254901960784,
+        "macro_f1": 0.5850776948710519,
+        "accuracy": 0.6277372262773723,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7917642140468227,
+        "macro_recall": 0.6937908496732026,
+        "macro_f1": 0.6823585736463411,
+        "accuracy": 0.6985294117647058,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.5921139183655583,
+    "mean_accuracy": 0.6210403437210459,
+    "mean_balanced_accuracy": 0.6297864232757779
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 2,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "candidate_id": "working_reference",
+      "feature_key": "res5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5030238858363858,
+        "macro_recall": 0.4898217247097844,
+        "macro_f1": 0.46145398349126976,
+        "accuracy": 0.49624060150375937,
+        "support": 133
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.5679017061370002,
+        "macro_recall": 0.7841003316749585,
+        "macro_f1": 0.6326956381724422,
+        "accuracy": 0.5864661654135338,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6333241959064326,
+        "macro_recall": 0.7120098039215687,
+        "macro_f1": 0.657042165682938,
+        "accuracy": 0.635036496350365,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7246469927921542,
+        "macro_recall": 0.6568627450980392,
+        "macro_f1": 0.6311247062551616,
+        "accuracy": 0.625,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.5955791234004529,
+    "mean_accuracy": 0.5856858158169145,
+    "mean_balanced_accuracy": 0.6606986513510876
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 3,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5980851847857348,
+        "macro_recall": 0.5852197346600332,
+        "macro_f1": 0.5246401817959214,
+        "accuracy": 0.5639097744360902,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5898493353842025,
+        "macro_recall": 0.773731884057971,
+        "macro_f1": 0.6338030907932224,
+        "accuracy": 0.5652173913043478,
+        "support": 138
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6746867715617715,
+        "macro_recall": 0.6757761437908496,
+        "macro_f1": 0.6656455129725422,
+        "accuracy": 0.6715328467153284,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7921140125087494,
+        "macro_recall": 0.6641339869281047,
+        "macro_f1": 0.6615627865092585,
+        "accuracy": 0.6911764705882353,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6214128930177362,
+    "mean_accuracy": 0.6229591207610004,
+    "mean_balanced_accuracy": 0.6747154373592396
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 3,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "res7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5980851847857348,
+        "macro_recall": 0.5852197346600332,
+        "macro_f1": 0.5246401817959214,
+        "accuracy": 0.5639097744360902,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5898493353842025,
+        "macro_recall": 0.773731884057971,
+        "macro_f1": 0.6338030907932224,
+        "accuracy": 0.5652173913043478,
+        "support": 138
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6746867715617715,
+        "macro_recall": 0.6757761437908496,
+        "macro_f1": 0.6656455129725422,
+        "accuracy": 0.6715328467153284,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7921140125087494,
+        "macro_recall": 0.6641339869281047,
+        "macro_f1": 0.6615627865092585,
+        "accuracy": 0.6911764705882353,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6214128930177362,
+    "mean_accuracy": 0.6229591207610004,
+    "mean_balanced_accuracy": 0.6747154373592396
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 3,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "res7_40_history_m1",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5742029671717171,
+        "macro_recall": 0.5472844112769486,
+        "macro_f1": 0.5056581817138266,
+        "accuracy": 0.556390977443609,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6376748251748252,
+        "macro_recall": 0.886231884057971,
+        "macro_f1": 0.698337725492898,
+        "accuracy": 0.6304347826086957,
+        "support": 138
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6603578078642017,
+        "macro_recall": 0.7351715686274509,
+        "macro_f1": 0.681675270482647,
+        "accuracy": 0.6423357664233577,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7158040964011113,
+        "macro_recall": 0.6119281045751634,
+        "macro_f1": 0.5801242731941262,
+        "accuracy": 0.6102941176470589,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6164488627208744,
+    "mean_accuracy": 0.6098639110306803,
+    "mean_balanced_accuracy": 0.6951539921343834
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 3,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "res7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5980851847857348,
+        "macro_recall": 0.5852197346600332,
+        "macro_f1": 0.5246401817959214,
+        "accuracy": 0.5639097744360902,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5898493353842025,
+        "macro_recall": 0.773731884057971,
+        "macro_f1": 0.6338030907932224,
+        "accuracy": 0.5652173913043478,
+        "support": 138
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6746867715617715,
+        "macro_recall": 0.6757761437908496,
+        "macro_f1": 0.6656455129725422,
+        "accuracy": 0.6715328467153284,
+        "support": 137
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7921140125087494,
+        "macro_recall": 0.6641339869281047,
+        "macro_f1": 0.6615627865092585,
+        "accuracy": 0.6911764705882353,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6214128930177362,
+    "mean_accuracy": 0.6229591207610004,
+    "mean_balanced_accuracy": 0.6747154373592396
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 4,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6235177404295051,
+        "macro_recall": 0.5691542288557214,
+        "macro_f1": 0.5315009908988011,
+        "accuracy": 0.6165413533834586,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5619791666666667,
+        "macro_recall": 0.7416666666666667,
+        "macro_f1": 0.6137844611528822,
+        "accuracy": 0.5652173913043478,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6787387411565042,
+        "macro_recall": 0.7875621890547264,
+        "macro_f1": 0.7025608544773305,
+        "accuracy": 0.6917293233082706,
+        "support": 133
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7798611111111111,
+        "macro_recall": 0.5764705882352941,
+        "macro_f1": 0.6010965548474856,
+        "accuracy": 0.7205882352941176,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6122357153441249,
+    "mean_accuracy": 0.6485190758225486,
+    "mean_balanced_accuracy": 0.668713418203102
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 4,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_40_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.4763836423992674,
+        "macro_recall": 0.6024461028192372,
+        "macro_f1": 0.5220459741477218,
+        "accuracy": 0.6165413533834586,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5382688492063492,
+        "macro_recall": 0.711231884057971,
+        "macro_f1": 0.5836814647340963,
+        "accuracy": 0.5289855072463768,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6778973950026581,
+        "macro_recall": 0.8471600331674958,
+        "macro_f1": 0.713016774891775,
+        "accuracy": 0.6691729323308271,
+        "support": 133
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.6599055383022774,
+        "macro_recall": 0.5163398692810457,
+        "macro_f1": 0.5296818581745053,
+        "accuracy": 0.6617647058823529,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.5871065179870246,
+    "mean_accuracy": 0.6191161247107538,
+    "mean_balanced_accuracy": 0.6692944723314374
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 4,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "adc7_20_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "adc7_20_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6465686274509803,
+        "macro_recall": 0.6353855721393034,
+        "macro_f1": 0.5955012531328321,
+        "accuracy": 0.6691729323308271,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5581330777925205,
+        "macro_recall": 0.7255434782608696,
+        "macro_f1": 0.5992796440942859,
+        "accuracy": 0.5434782608695652,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6342705905205905,
+        "macro_recall": 0.799502487562189,
+        "macro_f1": 0.6892706149545772,
+        "accuracy": 0.6541353383458647,
+        "support": 133
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7594381313131313,
+        "macro_recall": 0.552001633986928,
+        "macro_f1": 0.5546498264377522,
+        "accuracy": 0.6764705882352942,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6096753346548618,
+    "mean_accuracy": 0.6358142799453879,
+    "mean_balanced_accuracy": 0.6781082929873224
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 4,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "adc5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.6235177404295051,
+        "macro_recall": 0.5691542288557214,
+        "macro_f1": 0.5315009908988011,
+        "accuracy": 0.6165413533834586,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5619791666666667,
+        "macro_recall": 0.7416666666666667,
+        "macro_f1": 0.6137844611528822,
+        "accuracy": 0.5652173913043478,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6787387411565042,
+        "macro_recall": 0.7875621890547264,
+        "macro_f1": 0.7025608544773305,
+        "accuracy": 0.6917293233082706,
+        "support": 133
+      },
+      {
+        "inner_rep": 5,
+        "macro_precision": 0.7798611111111111,
+        "macro_recall": 0.5764705882352941,
+        "macro_f1": 0.6010965548474856,
+        "accuracy": 0.7205882352941176,
+        "support": 136
+      }
+    ],
+    "mean_macro_f1": 0.6122357153441249,
+    "mean_accuracy": 0.6485190758225486,
+    "mean_balanced_accuracy": 0.668713418203102
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 5,
+    "procedure": "Training-only temporal-or-level selection",
+    "candidate": {
+      "candidate_id": "res7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5040064102564104,
+        "macro_recall": 0.5853855721393035,
+        "macro_f1": 0.5298803658936205,
+        "accuracy": 0.6390977443609023,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6317106009070295,
+        "macro_recall": 0.7019927536231885,
+        "macro_f1": 0.6429348101348547,
+        "accuracy": 0.5942028985507246,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6697317563388991,
+        "macro_recall": 0.7310530679933666,
+        "macro_f1": 0.6811063218390805,
+        "accuracy": 0.6466165413533834,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6202376907644699,
+        "macro_recall": 0.6012254901960784,
+        "macro_f1": 0.5948200524666207,
+        "accuracy": 0.635036496350365,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.6121853875835441,
+    "mean_accuracy": 0.6287384201538437,
+    "mean_balanced_accuracy": 0.6549142209879842
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 5,
+    "procedure": "Level-only control",
+    "candidate": {
+      "candidate_id": "adc7_40_m1",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "feature_key": "adc7_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.43231273557360517,
+        "macro_recall": 0.49776119402985075,
+        "macro_f1": 0.459003660579411,
+        "accuracy": 0.5338345864661654,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5470577485380117,
+        "macro_recall": 0.7124999999999999,
+        "macro_f1": 0.5954132263683081,
+        "accuracy": 0.5507246376811594,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.7086939102564103,
+        "macro_recall": 0.8629975124378109,
+        "macro_f1": 0.7519823277937825,
+        "accuracy": 0.7218045112781954,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.589496411155894,
+        "macro_recall": 0.6162173202614379,
+        "macro_f1": 0.5853410865020772,
+        "accuracy": 0.5620437956204379,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.5979350753108947,
+    "mean_accuracy": 0.5921018827614896,
+    "mean_balanced_accuracy": 0.6723690066822748
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 5,
+    "procedure": "Temporal-only ablation",
+    "candidate": {
+      "candidate_id": "res7_40_history_m0",
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "feature_key": "res7_40_history",
+      "history": true
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5040064102564104,
+        "macro_recall": 0.5853855721393035,
+        "macro_f1": 0.5298803658936205,
+        "accuracy": 0.6390977443609023,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.6317106009070295,
+        "macro_recall": 0.7019927536231885,
+        "macro_f1": 0.6429348101348547,
+        "accuracy": 0.5942028985507246,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6697317563388991,
+        "macro_recall": 0.7310530679933666,
+        "macro_f1": 0.6811063218390805,
+        "accuracy": 0.6466165413533834,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.6202376907644699,
+        "macro_recall": 0.6012254901960784,
+        "macro_f1": 0.5948200524666207,
+        "accuracy": 0.635036496350365,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.6121853875835441,
+    "mean_accuracy": 0.6287384201538437,
+    "mean_balanced_accuracy": 0.6549142209879842
+  },
+  {
+    "participant": "S3",
+    "outer_rep": 5,
+    "procedure": "Existing working procedure",
+    "candidate": {
+      "n_estimators": 128,
+      "family": "ExtraTrees",
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null,
+      "candidate_id": "working_reference",
+      "feature_key": "res5_40",
+      "history": false
+    },
+    "standing_multiplier": 0.5,
+    "folds": [
+      {
+        "inner_rep": 1,
+        "macro_precision": 0.5861254417224566,
+        "macro_recall": 0.601969320066335,
+        "macro_f1": 0.5626273711655625,
+        "accuracy": 0.6090225563909775,
+        "support": 133
+      },
+      {
+        "inner_rep": 2,
+        "macro_precision": 0.5909589314194578,
+        "macro_recall": 0.710024154589372,
+        "macro_f1": 0.6275265442923201,
+        "accuracy": 0.572463768115942,
+        "support": 138
+      },
+      {
+        "inner_rep": 3,
+        "macro_precision": 0.6963846916971917,
+        "macro_recall": 0.7593076285240464,
+        "macro_f1": 0.7021561314353075,
+        "accuracy": 0.6691729323308271,
+        "support": 133
+      },
+      {
+        "inner_rep": 4,
+        "macro_precision": 0.561626552795031,
+        "macro_recall": 0.5545343137254902,
+        "macro_f1": 0.5454097324065659,
+        "accuracy": 0.5766423357664233,
+        "support": 137
+      }
+    ],
+    "mean_macro_f1": 0.609429944824939,
+    "mean_accuracy": 0.6068253981510425,
+    "mean_balanced_accuracy": 0.6564588542263109
+  }
+]

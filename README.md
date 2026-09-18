@@ -21,7 +21,7 @@ Position 4 is **right hand touching the left shoulder with a leftward torso twis
 ## Contents
 
 - `code/acquisition/`: BLE discovery, acquisition, preprocessing, and plotting.
-- `code/analysis/`: primary Python grouped-validation analysis, figure generators, and legacy MATLAB scripts retained for audit history.
+- `code/analysis/`: updated participant-calibrated archive, earlier grouped-validation analysis, figure generators and legacy MATLAB scripts.
 - `data/processed/`: approved, de-identified analysis files for Subjects 1–3.
 - `hardware/esp32_ble/`: ten-channel `TSHIRT_01` BLE firmware used with the primary acquisition script.
 - `hardware/legacy_wifi_udp/`: sanitized Wi-Fi/UDP prototype code retained for engineering reference only.
@@ -56,15 +56,21 @@ python code/acquisition/tshirt_ble_protocol.py collect \
 
 Do not use names, initials, emails, medical-record numbers, or other direct identifiers as `--subject` values.
 
-## Primary classification analysis
+## Current participant-calibrated analysis
 
-Run:
+The updated full-array results are **68.31% accuracy, 65.94% macro precision, 73.37% balanced accuracy (macro recall) and 69.07% macro-F1** across 2,032 held-posture windows. These are exploratory within-recording, participant-calibrated estimates, not independent-session validation.
+
+The [complete analysis archive and reproduction instructions](code/analysis/participant_calibrated/README.md) include the fixed plans, full code dependency chain, saved predictions and probabilities, fold identifiers, settings, feature matrices, input hashes, verification checks and the generators for manuscript Figures 9 and 10. The input CSVs in this repository are unchanged. Use the pinned environment and commands in that archive rather than the repository's acquisition environment.
+
+## Earlier sensor-count analysis (secondary)
+
+The original random-forest comparison remains available for the secondary sensor-count analysis:
 
 ```bash
 python code/analysis/nested_grouped_classification.py
 ```
 
-The script keeps each complete posture repetition in one validation fold, constructs non-overlapping windows within protocol phases, performs sensor selection only within outer-training data, and fits imputation and standardization within each training fold. Nested-selected single sensors, pairs, and triplets are compared with the complete ten-sensor model on identical outer folds. Outputs are written to `results/nested_grouped/`.
+It compares nested-selected single sensors, pairs and triplets with all ten sensors on identical repetition-grouped folds. Its outputs in `results/nested_grouped/` are not the updated full-array model's results.
 
 ## Legacy MATLAB analysis
 

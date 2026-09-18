@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "feature_vectors_checked": 9512,
+  "metric_groups_checked": 32,
+  "split_checks": 75,
+  "selection_checks": 60,
+  "outer_fits_replayed": 45,
+  "primary_inner_fits_replayed": 60,
+  "all_prediction_rows_checked": 9512,
+  "original_working_predictions_reproduced": true,
+  "sources_unchanged": true
+}

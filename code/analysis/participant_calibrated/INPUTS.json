@@ -1,0 +1,23 @@
+[
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/data/processed/subject_01.csv",
+    "bytes": 8053891,
+    "sha256": "13da7f5642c5a379f88753df0266c8f673b0319323f4cbd3f543593fc321ea43",
+    "repository_path": "data/processed/subject_01.csv",
+    "git_blob_sha1": "475e77097760d0642c400b4001deb8e209344a93"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/data/processed/subject_02.csv",
+    "bytes": 8084154,
+    "sha256": "6b054a0d9963ac56204606bdd160b9eb55eb1b57f55e9f6b8ed2ec4fc97f40a6",
+    "repository_path": "data/processed/subject_02.csv",
+    "git_blob_sha1": "96a096cf6c703cbeed5f615327b741a0c778e00f"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/data/processed/subject_03.csv",
+    "bytes": 8109802,
+    "sha256": "b20b9b4f8653bb841f789dbca18256070ee768cab17cbe7ae015fa552bfc2e84",
+    "repository_path": "data/processed/subject_03.csv",
+    "git_blob_sha1": "572e1fb108a21adb8a84693af0d4aabad530ed69"
+  }
+]

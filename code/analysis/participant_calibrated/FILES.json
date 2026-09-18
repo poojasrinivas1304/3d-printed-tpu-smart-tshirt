@@ -1,0 +1,472 @@
+[
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/PLAN.md",
+    "bytes": 2733,
+    "sha256": "81b5347ef7854be93d446a6dad81a7ca92f2c9857f2a31b6f5355ec101b6cd41"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/README.md",
+    "bytes": 4650,
+    "sha256": "53cf40810f4546295d8a2c16a477303da9ae758d516d27a3c61dff06377685e0"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/RESULTS.md",
+    "bytes": 7145,
+    "sha256": "12cc19e5a8342ffc8bfb251a21d786e8ff2b2e00d22ee49cc4452ed019c9cf07"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/audit_data.py",
+    "bytes": 3375,
+    "sha256": "402603ae92bcb6a1fef6015446c0e1ff58e7bac283da1fbafbb3b8fa941fa34f"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/baseline_analysis.py",
+    "bytes": 27193,
+    "sha256": "462c516a7bfdfd319a6e3875a693245fbf8806e5faeea2fec5d368e994f767da"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/benchmark.py",
+    "bytes": 16289,
+    "sha256": "b360865711b2671eef97d5b6d4a625f9c52f07e391a4c81b9fe87c4ae446f9ba"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/check_outputs.py",
+    "bytes": 3115,
+    "sha256": "f40ac43f40ca5e160e30e7a14d260b4b84e6d3980d835065cce75230ad4c6ee3"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/requirements.txt",
+    "bytes": 80,
+    "sha256": "6c8d20230fb9710e8f6a208c6de0905b34fdc54510c27cacaf2fddf4579d8af1"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/class_recall.csv",
+    "bytes": 30577,
+    "sha256": "79c071facecaa58ae0a469587081d2c453f39131acf7eab985e9d019491ce5a2"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/confusion_counts.csv",
+    "bytes": 128140,
+    "sha256": "aa5bda67188b72870dfac994273b16829750cc57fb087721c76d15d68e91636d"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/fold_selections.csv",
+    "bytes": 14250,
+    "sha256": "e91761705a4cd3e9c214b451978b3c963d82711a30ea5c7f19dc36bbcb27f6e4"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/inner_search_scores.csv",
+    "bytes": 544440,
+    "sha256": "fd3ecaec87f47ac31dc9a697b0e1e287301dadf574cf5ce4ab3026ab4473833d"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/input_audit.json",
+    "bytes": 13918,
+    "sha256": "ea51013d07c36502bb40f16aee9827ede695cfae7a0ac4b1a14d932fe1e8fdc7"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/manifest.json",
+    "bytes": 13199,
+    "sha256": "98fbfa19cb64fe627e66d96fb2b12a4fdc902356644a87b299f8b21efaea63bf"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/metrics.csv",
+    "bytes": 5167,
+    "sha256": "76621c27b6f438ba4019922a6a8754bfe2080eacbcb335078f9e624afdd03481"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/outer_predictions.csv",
+    "bytes": 1999597,
+    "sha256": "fd4919899116a90024f6a99f2674d58d2ea9397154ff2c0c1c01319b918a97c6"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/standing_window_diagnostics.csv",
+    "bytes": 288,
+    "sha256": "7ff4a9ea56b81108a2c69f0641af9dd333da538f0029132a93fe8ee671530c1c"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/results/window_manifest.csv",
+    "bytes": 227533,
+    "sha256": "b5825a45e58cc050d8b6b348b49d9fd6651345671e7c58f017bef32bd9eafd14"
+  },
+  {
+    "path": "tshirt_algorithm_benchmark_20260918/summarize.py",
+    "bytes": 10339,
+    "sha256": "36068166123017d8a3c47fc2023f5e899041040af0b8562104fef0c368511087"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/PLAN.md",
+    "bytes": 3782,
+    "sha256": "b4d0b0bc6b00c0558294e50f176c0c6965a9000782a9932f563cb7e1ab6b37a4"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/refine.py",
+    "bytes": 12089,
+    "sha256": "8572eb24cf04775092d08b48615dfd312a549e4835c485355880e67de28ad060"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/comparison.json",
+    "bytes": 10162,
+    "sha256": "fa0105a0af9fabd6ed56997512da2d1e79f587eeb81ef94938b73042fe8107c3"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/inner_search.json",
+    "bytes": 7627140,
+    "sha256": "d2fa74af0a92bbab9108768094e9321dd150d990311f85ef1d9febe39cc202ab"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/manifest.json",
+    "bytes": 14878,
+    "sha256": "e4e158dfd4a30e8c7e9dec5a7cdc339cf525987ee2f57308211a34487dd5fa49"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/metrics.json",
+    "bytes": 47356,
+    "sha256": "153bf77fc93f51feaa1d64e0c4dc0f8de3654b5255dc27c51231c76896f4c68a"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/outer_predictions.json",
+    "bytes": 4223783,
+    "sha256": "084ec326fc07c2202e3db45944a8dd2db929f3b5600461171a150684363aeaf8"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/selections.json",
+    "bytes": 95871,
+    "sha256": "a907a43b53f7bd74859c2376962fc33543fb3aabe9f91e1c10bdd8eec6478c9a"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/split_audit.json",
+    "bytes": 13427,
+    "sha256": "b56cc57bd1f9eb21dad649a8aad8a8874638050d23703db26d345080aae2e8d8"
+  },
+  {
+    "path": "tshirt_finetuning_20260918/results/verification.json",
+    "bytes": 265,
+    "sha256": "af270099718180ecc473ca5b6ccf73b1d3d5ac264a7362618dcffbcf560965ee"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/PLAN.md",
+    "bytes": 4879,
+    "sha256": "61a6b56729da5c45729d2ab84a87b75c1faf2464b6e4bb8bc3f4784e27f690c7"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/README.md",
+    "bytes": 2959,
+    "sha256": "fed1440edcf63811c8e5968ec487230aaebfe141bf289f9f6a72c9c17e3a67b1"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/RESULTS.md",
+    "bytes": 10036,
+    "sha256": "7076ded5e489436d565b213eaad7d3fe03d45e0a94ba3940ed9502ed2ad9ce88"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/joint_benchmark.py",
+    "bytes": 14401,
+    "sha256": "6874901b805a7636ae5d95e24a5c5e92e84869fc09c00495346ff763c914c5e0"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/requirements.txt",
+    "bytes": 122,
+    "sha256": "b0c3de4d59aa2ab5952cd8de3b1c2bf9e690b62968ff3079eba30bd12ef8560f"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/comparison.json",
+    "bytes": 33583,
+    "sha256": "353e007dd50f71360177265aa127a1c3ff520faebe8151280b8e9f17802ea838"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/manifest.json",
+    "bytes": 7712,
+    "sha256": "25cd3af1706518217bd8499258f135fc40138e340f854f2b2bacd2d49b75589f"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/metrics.json",
+    "bytes": 75932,
+    "sha256": "c9b6fb0eeba6439780c28a344a0bd5635f04a0f977fe4650f3dce968d524ae30"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/outer_predictions.json",
+    "bytes": 7554091,
+    "sha256": "5a0c75fcc0894783f93932f3ccf165e759df36213472e6332c04bf7eff89d5be"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S1_rep1.json",
+    "bytes": 2275646,
+    "sha256": "b4e3c8354fc688b0ad93eaa17ebb518292c141e457c22d0359d3f12816377dd5"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S1_rep2.json",
+    "bytes": 2277746,
+    "sha256": "78b77b08660c3d73eadf11dd1b6664aa6318ce581cd645db22f94b39b7e17df9"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S1_rep3.json",
+    "bytes": 2277688,
+    "sha256": "6358580b9e0d43dbc16cc2636f5768b6b612c734939643e479b2ca7461410742"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S1_rep4.json",
+    "bytes": 2278317,
+    "sha256": "316e37271d38387a0b1ef6b137cbb723d51a2e9450005ddc165e2c4f6c6f203e"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S1_rep5.json",
+    "bytes": 2277964,
+    "sha256": "1a6fde34bb5a3c48cc4af7cfc87290e6df092bc891919b3a7b79e4f155e3b118"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S2_rep1.json",
+    "bytes": 2275269,
+    "sha256": "eee02456335b2a3969217489fd41b59dcf18cfca20182395faf3a657cb3a199d"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S2_rep2.json",
+    "bytes": 2276656,
+    "sha256": "4036ae0eaa80c1a0a76d75365e052a3f9f420a3c9a28cb4315b5a96137bdbbfb"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S2_rep3.json",
+    "bytes": 2278452,
+    "sha256": "7d3c87b1d5b9ed17908b57e4a0887da74ea21005b6effa880c408a8ac067be08"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S2_rep4.json",
+    "bytes": 2277613,
+    "sha256": "95fc38f91461eaa1dc81d4e1a5ea69a1298b648e8d17ba1078eef2d39891d653"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S2_rep5.json",
+    "bytes": 2275572,
+    "sha256": "cc94f6461d7944d26bacd60023a358f2030d128679dd75bc58025cf23b2bfbef"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S3_rep1.json",
+    "bytes": 2278619,
+    "sha256": "ce72184da6609fde774440e8c1cd177ef4fc45b8cbead0dba9d1e612465c3aff"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S3_rep2.json",
+    "bytes": 2282815,
+    "sha256": "81ac4478dade73f91e4527aa02eb6484e4cbab922a586912276e67f3f9092b2a"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S3_rep3.json",
+    "bytes": 2281864,
+    "sha256": "adae87f36b4544a499e16a53034dea472498de2ef92f3ac91c53ba41778686e1"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S3_rep4.json",
+    "bytes": 2281240,
+    "sha256": "1307663e4a60f8be85da88da752da474c48d58223ccb4de8b117861277e77480"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/search_S3_rep5.json",
+    "bytes": 2281074,
+    "sha256": "2784f63d58ef4787555796b11707b8c006d23a2800d746836bcb00c071dd3da0"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/selections.json",
+    "bytes": 118976,
+    "sha256": "55bd6c9a238abdf1c9f8fbe5d87e5059f54787f35d1800d99ab171ef9338e20f"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/split_audit.json",
+    "bytes": 13427,
+    "sha256": "73694344012cb4964ca9d0cf71b133623df05326b5a60e6a94c014316d4d7bab"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/results/verification.json",
+    "bytes": 308,
+    "sha256": "30b5fb97cd19d064f365a750cad634ec8104392a1d84c9dc0677f17177ec689f"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/test_helpers.py",
+    "bytes": 2131,
+    "sha256": "9e2e405b322ea22ccb4922062385dee215e57bd76407bfb865fd097ca124f419"
+  },
+  {
+    "path": "tshirt_joint_benchmark_20260918/verify_and_report.py",
+    "bytes": 21001,
+    "sha256": "4bada3fd1345193ed7500112030b0d6b4a6e330fdd6fc421f5da17153fb90e2c"
+  },
+  {
+    "path": "tshirt_model_validation_20260918/validate.py",
+    "bytes": 15826,
+    "sha256": "06ba935e1ad2eebebee297c9385e29f849443591c6711d3ff1cf350e7dd8d905"
+  },
+  {
+    "path": "tshirt_results_update_20260918/Fig10.png",
+    "bytes": 365892,
+    "sha256": "e099522d1459e04512d8e372562d0dabd0688e8aadc20bc16fa3268a127354c5"
+  },
+  {
+    "path": "tshirt_results_update_20260918/Fig9.png",
+    "bytes": 494216,
+    "sha256": "58bdcbe2fc50cc1435c22d09d42e44eb2d57017ed3f2a9f3c726834195686d36"
+  },
+  {
+    "path": "tshirt_results_update_20260918/build_figures.py",
+    "bytes": 6784,
+    "sha256": "0d8d61097f2b068098f9a7cf7faeae00ebf07b1127c9b3d76180b3824a593945"
+  },
+  {
+    "path": "tshirt_results_update_20260918/verified_metrics.json",
+    "bytes": 61060,
+    "sha256": "12f4190761d7e7acd7af6a291f6f14d89825d593350274109d906cadd4ea15c6"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/PLAN.md",
+    "bytes": 4577,
+    "sha256": "c2af0017d311d0e6745a5657b788e3dc234c738df43eacecd4c7780457f253ef"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/README.md",
+    "bytes": 2107,
+    "sha256": "47a35bfa69be841783255959c4e1b05ddee9c6c0c9d5c1f301e992d8255df5ed"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/RESULTS.md",
+    "bytes": 8082,
+    "sha256": "aaee5085bc1e49de74f4b8dbc2932de3d11391ddf94a657e667e6fc77e852aaf"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/benchmark.py",
+    "bytes": 12768,
+    "sha256": "707f1f1cafcb94c8084c9fe4c2e5fec2b4fd2884c652c6ab2696e3669f280398"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/comparison.png",
+    "bytes": 92850,
+    "sha256": "cddad5cbd69385ab07c2bd616ee629870cfb5b9e0adbbc1b77d03dbea9791fe3"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/feature_matrices.npz",
+    "bytes": 10983853,
+    "sha256": "f70b6faebeb7efd4649b01a121194f7dd1584dd425ce7a86e48272027f20eb9e"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/fold_metrics.csv",
+    "bytes": 3528,
+    "sha256": "1d8f289cb7edfc55003d440719ce457daa8dec47e19687c3de755bee48bcbde4"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/history_sources.csv",
+    "bytes": 63296,
+    "sha256": "d0d67e0fd9de1b731021bbe2964c9b08830a6c5ba92c4c37022dccb3e0a8b38e"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S1_rep1.json",
+    "bytes": 169455,
+    "sha256": "ad84f4dedc1a02d5f3360344bd386ec7fb8fbffdcf3e439e72b77a3d219a85da"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S1_rep2.json",
+    "bytes": 169736,
+    "sha256": "9bb943e77d03c28b8d676a85fdd7bebf1d1417f1681e3f2ef6a52a8d2e6e4ec2"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S1_rep3.json",
+    "bytes": 169646,
+    "sha256": "c52a8ee960d80724f2b506cf16c8303ddf2b275b4308edff696143e278d6faab"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S1_rep4.json",
+    "bytes": 169434,
+    "sha256": "c3987967a71ab1dfaae3db00a02e719cc736735483f5747d57e9a953dbb502c8"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S1_rep5.json",
+    "bytes": 169792,
+    "sha256": "b8a9eeb21c5ca3ee0f09546fafe27ea06478cb2c170bf0c88e5587811cb7593c"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S2_rep1.json",
+    "bytes": 169484,
+    "sha256": "06d47f42070108f31d14a7b951cb47ffae04610a4b24698edeb0154334e86b2a"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S2_rep2.json",
+    "bytes": 169101,
+    "sha256": "987b819a68ddaa7088c6c35bab7b760dbcc6e493a5ed8dee720bc796bbd38b39"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S2_rep3.json",
+    "bytes": 169361,
+    "sha256": "1fb9d65db7186eb5b3e9bcc41b75100c22b0607e5c95d2f8121e02fe247a18df"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S2_rep4.json",
+    "bytes": 169418,
+    "sha256": "2cc8b4d884c13254adf5401a094fee53768ec75ba59d38579221ee4f7c30e341"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S2_rep5.json",
+    "bytes": 169301,
+    "sha256": "1aed1d6e3f715ba4e8c8445aedf2d4aef02a8aeee9ae695f573d63f8e4818f48"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S3_rep1.json",
+    "bytes": 169350,
+    "sha256": "64403b9ef49e9514562e84db1523da9bd63b082e4407a4d9c616f2703e9d7ad0"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S3_rep2.json",
+    "bytes": 169866,
+    "sha256": "d17d236c6b2492cd110bb68ba88a495e7c51230a834fba878524f140249cbba3"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S3_rep3.json",
+    "bytes": 169414,
+    "sha256": "389a8e36dd4febc4c882762659a3af10d69e435f981890392932c2113cba46c9"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S3_rep4.json",
+    "bytes": 169500,
+    "sha256": "6b539491d3a13704801bb36c9319a496002909a2a39e290e2a269c60a10c64bb"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/inner_S3_rep5.json",
+    "bytes": 169643,
+    "sha256": "266bb15cc842c979de063a5b797330f7724aea661e6251e3ad36bdf70305aa1c"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/manifest.json",
+    "bytes": 13964,
+    "sha256": "2fe61cdbdf24d92cc0d6a9f286a4481b57a585f5d4f7058e04efd71d220cf9be"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/metrics.json",
+    "bytes": 61059,
+    "sha256": "dbd0ba0cf829998f7c1ef6033935933eeab3a7d501af50565e6b5d377ebadf8e"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/outer_predictions.json",
+    "bytes": 8305299,
+    "sha256": "a662f2eb2374642606c682b8e852a6bd3394f2eb3afa00d14d9b95804aa96ca4"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/selections.json",
+    "bytes": 89478,
+    "sha256": "9c2663d86ddadb4198a03b429b91c6ca0a9a09edad3f809f385da9a4286c7b58"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/split_audit.json",
+    "bytes": 13427,
+    "sha256": "73694344012cb4964ca9d0cf71b133623df05326b5a60e6a94c014316d4d7bab"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/results/verification.json",
+    "bytes": 319,
+    "sha256": "4ed33f6efcaa9da7d52576181eee79a22762e73140dc9efedb848da1c4e371c7"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/test_features.py",
+    "bytes": 1510,
+    "sha256": "117b82126a7fddbbcd5662c815eeb372d71037ed151c99650492850b715c2ce3"
+  },
+  {
+    "path": "tshirt_temporal_test_20260918/verify_and_report.py",
+    "bytes": 20403,
+    "sha256": "1acdf9ae939b7f9df99c59f29e9e5a8aea1bccb557db6df61382595d1fa34225"
+  }
+]
