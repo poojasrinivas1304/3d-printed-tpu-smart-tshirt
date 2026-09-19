@@ -1,0 +1,17 @@
+{
+  "P01": {
+    "train_sha256": "b6b441b9afacffd1bfa11b007e7fc607768c9075996ebe550b26c505c146aebe",
+    "test_sha256": "0448f62d034e47e6e351ee44260baca4890077c7d1f2304c5e92298f248394ff",
+    "seed": 3328935492
+  },
+  "P02": {
+    "train_sha256": "700a56699bdb44934f841b1cd37e00c4df01d669f2bcc10326f35971d974cc3b",
+    "test_sha256": "30b704ba1dbd1d94df21da4f3d37d83bee590840cde84adadd4baa063cdc8333",
+    "seed": 1935209306
+  },
+  "P03": {
+    "train_sha256": "e2bda97d650a72e95064016fb4972122971887a734f70f3c5339fc50608a1b52",
+    "test_sha256": "8db354971e7cb8f5b6989c17022b3235f4a59a60e212baba6742c6c5f0692112",
+    "seed": 3639636167
+  }
+}

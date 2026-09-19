@@ -1,0 +1,248 @@
+{
+  "completed": true,
+  "plan_sha256": "e9688c8b9effd5eef3f659ea4b558365c8a39baa00b1c89e4489e06eb92b5ddf",
+  "script_sha256": "5b33ab595db24de2c541d5e3db81a1d8353ab604393ea779e40a16095c4ed253",
+  "reference_script_sha256": "2202b1c94a6d6e4c01cf9539a745c6dbba768724aa04ad0b9bd5df4df244ff00",
+  "candidates": [
+    {
+      "id": 0,
+      "name": "RF100",
+      "features": "raw",
+      "family": "RF",
+      "parameters": {
+        "n_estimators": 100
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 1,
+      "name": "RF300_all_features",
+      "features": "raw",
+      "family": "RF",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 1.0
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 2,
+      "name": "RF300_balanced_leaf2",
+      "features": "raw",
+      "family": "RF",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 0.7,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced_subsample"
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 3,
+      "name": "ExtraTrees300",
+      "features": "raw",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 1.0
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 4,
+      "name": "ExtraTrees300_balanced_leaf2",
+      "features": "raw",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 1.0,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 5,
+      "name": "ExtraTrees300_spatial",
+      "features": "spatial",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 0.7
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 6,
+      "name": "ExtraTrees300_spatial_balanced",
+      "features": "spatial",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 0.7,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 7,
+      "name": "XGBoost300_depth3",
+      "features": "raw",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 8,
+      "name": "XGBoost300_depth6",
+      "features": "raw",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 6,
+        "reg_lambda": 5
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    {
+      "id": 10,
+      "name": "KNN5_distance",
+      "features": "raw",
+      "family": "KNN",
+      "parameters": {
+        "n_neighbors": 5,
+        "weights": "distance"
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 11,
+      "name": "KNN15_distance",
+      "features": "raw",
+      "family": "KNN",
+      "parameters": {
+        "n_neighbors": 15,
+        "weights": "distance"
+      },
+      "balanced_sample_weight": false
+    },
+    {
+      "id": 12,
+      "name": "KNN5_spatial_distance",
+      "features": "spatial",
+      "family": "KNN",
+      "parameters": {
+        "n_neighbors": 5,
+        "weights": "distance"
+      },
+      "balanced_sample_weight": false
+    }
+  ],
+  "workers": 6,
+  "versions": {
+    "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "sklearn": "1.8.0",
+    "xgboost": "3.4.1",
+    "joblib": "1.5.3"
+  },
+  "inputs": [
+    {
+      "participant": "P01",
+      "source_sha256": "13da7f5642c5a379f88753df0266c8f673b0319323f4cbd3f543593fc321ea43",
+      "source_rows": 16900,
+      "eligible_rows": 16900,
+      "excluded_source_rows_0based": [],
+      "class_support": [
+        8476,
+        1223,
+        1199,
+        1202,
+        1199,
+        1199,
+        1203,
+        1199
+      ],
+      "phase_counts": {
+        "hold": 13989,
+        "move_to_target": 1415,
+        "move_to_position_1": 1396,
+        "initial_baseline": 100
+      },
+      "retained_rows_with_recorded_high_adc_flag": 33,
+      "retained_rows_with_recorded_low_adc_flag": 0
+    },
+    {
+      "participant": "P02",
+      "source_sha256": "6b054a0d9963ac56204606bdd160b9eb55eb1b57f55e9f6b8ed2ec4fc97f40a6",
+      "source_rows": 16900,
+      "eligible_rows": 16900,
+      "excluded_source_rows_0based": [],
+      "class_support": [
+        8503,
+        1200,
+        1201,
+        1194,
+        1200,
+        1201,
+        1200,
+        1201
+      ],
+      "phase_counts": {
+        "hold": 14010,
+        "move_to_position_1": 1405,
+        "move_to_target": 1402,
+        "initial_baseline": 83
+      },
+      "retained_rows_with_recorded_high_adc_flag": 356,
+      "retained_rows_with_recorded_low_adc_flag": 0
+    },
+    {
+      "participant": "P03",
+      "source_sha256": "b20b9b4f8653bb841f789dbca18256070ee768cab17cbe7ae015fa552bfc2e84",
+      "source_rows": 16901,
+      "eligible_rows": 16901,
+      "excluded_source_rows_0based": [],
+      "class_support": [
+        8507,
+        1201,
+        1198,
+        1197,
+        1201,
+        1200,
+        1198,
+        1199
+      ],
+      "phase_counts": {
+        "hold": 14010,
+        "move_to_position_1": 1401,
+        "move_to_target": 1390,
+        "initial_baseline": 100
+      },
+      "retained_rows_with_recorded_high_adc_flag": 0,
+      "retained_rows_with_recorded_low_adc_flag": 0
+    }
+  ],
+  "outer_evaluations": 18,
+  "inner_model_fits": 897,
+  "outer_model_fits": 54,
+  "total_model_fits": 951,
+  "source_hashes_unchanged": true,
+  "elapsed_seconds": 2021.6534044579603
+}

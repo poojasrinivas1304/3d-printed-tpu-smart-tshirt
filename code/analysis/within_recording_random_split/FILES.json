@@ -1,0 +1,82 @@
+[
+  {
+    "path": "INPUTS.json",
+    "sha256": "691958e352ceaab825130f49b588079852bafa0e72386f16e93f6fe136d23589"
+  },
+  {
+    "path": "README.md",
+    "sha256": "d1ed2ccfbf1f848b2f27778fed5a49a22fd5e9929c06e0ed7afec78e35221779"
+  },
+  {
+    "path": "aggregate/manifest.json",
+    "sha256": "5b1e2a3c72f792620ebacc5b885dda9d485e238e593dbca46e6b70232409a8c1"
+  },
+  {
+    "path": "aggregate/metrics.csv",
+    "sha256": "dd1b3092a6cf292a66b1a77a8ddfa1cb461744a2b66ebd50528cd0999e09ddce"
+  },
+  {
+    "path": "aggregate/participant_mean_metrics.csv",
+    "sha256": "3672856b0c5fe8e6db2ff53272417312d755143b798f1a77de68a43845f40762"
+  },
+  {
+    "path": "aggregate/per_class_metrics.csv",
+    "sha256": "84e2dbd201f98237b6dec8bb3f80afcb544b4b4cedd608e99bf6a759b394c931"
+  },
+  {
+    "path": "aggregate/selected_models.json",
+    "sha256": "47fb1652a8a566fd2a4f963d215e700fe9f206a45d548d1e41712d2e364512cb"
+  },
+  {
+    "path": "aggregate/selected_settings.csv",
+    "sha256": "b85c37d8517ef1d27024e0914c6f20e25d3ddd92568b92285cb31343e8f8bba7"
+  },
+  {
+    "path": "aggregate/selections.json",
+    "sha256": "1021aeb54663aaf80c6487ad0f54e124d6b42d07fe34f42fb78f30a17a02928d"
+  },
+  {
+    "path": "aggregate/split_diagnostics.csv",
+    "sha256": "4e7f5c2d132e6b19bf828570e11053f49c1da9721d3a1eba3cb1fca493b65863"
+  },
+  {
+    "path": "aggregate/split_hashes.json",
+    "sha256": "638f0f6c85b96cf599cee76cb5816b3acc45bd1bf9a775864f5f54da511be713"
+  },
+  {
+    "path": "aggregate/verified_metrics.json",
+    "sha256": "be41178d40b7be9e6a3530e6a2aed4a7a40ded3100adc098b92454e25cc5aa08"
+  },
+  {
+    "path": "build_figures.py",
+    "sha256": "be196d7b3d2568b840ce33e64c3b5663230087a31217c2675ed8ed5f66cb6445"
+  },
+  {
+    "path": "reproduce.py",
+    "sha256": "5d2a0c028860935a3a82ea706c6674a86a5dec3fe7ff77783b477d9396ba2cbf"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "03da34fc3033570eb0e5459989ff9730c793da1f7a0b6fdfb39b01bce34633a3"
+  },
+  {
+    "path": "tshirt_reference_method_20260919/PLAN.md",
+    "sha256": "32bab325783a1060f234fe28443b87fb69df6722b4d692368b8242ea275a8ba6"
+  },
+  {
+    "path": "tshirt_reference_method_20260919/benchmark.py",
+    "sha256": "2202b1c94a6d6e4c01cf9539a745c6dbba768724aa04ad0b9bd5df4df244ff00"
+  },
+  {
+    "path": "tshirt_score_improvement_20260919/PLAN.md",
+    "sha256": "e9688c8b9effd5eef3f659ea4b558365c8a39baa00b1c89e4489e06eb92b5ddf"
+  },
+  {
+    "path": "tshirt_score_improvement_20260919/benchmark.py",
+    "sha256": "5b33ab595db24de2c541d5e3db81a1d8353ab604393ea779e40a16095c4ed253"
+  },
+  {
+    "path": "tshirt_score_improvement_20260919/verify_and_report.py",
+    "sha256": "fbd8c8a496d43834b75bd75f4eae10eb37a0764e0461d973ae8f4aa44e472d02"
+  }
+]

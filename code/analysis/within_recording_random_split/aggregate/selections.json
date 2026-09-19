@@ -1,0 +1,362 @@
+[
+  {
+    "key": "random_rows_P01_fold0",
+    "design": "random_rows",
+    "participant": "P01",
+    "outer_fold": 0,
+    "candidate": {
+      "id": 5,
+      "name": "ExtraTrees300_spatial",
+      "features": "spatial",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 0.7
+      },
+      "balanced_sample_weight": false
+    },
+    "inner_macro_f1": 0.9536761758733977,
+    "inner_accuracy": 0.9546600965577277,
+    "inner_balanced_accuracy": 0.9495937491021066
+  },
+  {
+    "key": "random_rows_P02_fold0",
+    "design": "random_rows",
+    "participant": "P02",
+    "outer_fold": 0,
+    "candidate": {
+      "id": 3,
+      "name": "ExtraTrees300",
+      "features": "raw",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 1.0
+      },
+      "balanced_sample_weight": false
+    },
+    "inner_macro_f1": 0.9477554910979774,
+    "inner_accuracy": 0.9488165620161211,
+    "inner_balanced_accuracy": 0.9425246661208225
+  },
+  {
+    "key": "random_rows_P03_fold0",
+    "design": "random_rows",
+    "participant": "P03",
+    "outer_fold": 0,
+    "candidate": {
+      "id": 3,
+      "name": "ExtraTrees300",
+      "features": "raw",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 300,
+        "max_features": 1.0
+      },
+      "balanced_sample_weight": false
+    },
+    "inner_macro_f1": 0.9476249152041197,
+    "inner_accuracy": 0.9496299964156298,
+    "inner_balanced_accuracy": 0.9404809896958172
+  },
+  {
+    "key": "grouped_repetitions_P01_fold1",
+    "design": "grouped_repetitions",
+    "participant": "P01",
+    "outer_fold": 1,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.5423578894176178,
+    "inner_accuracy": 0.5594532842995746,
+    "inner_balanced_accuracy": 0.6214983744349702
+  },
+  {
+    "key": "grouped_repetitions_P01_fold2",
+    "design": "grouped_repetitions",
+    "participant": "P01",
+    "outer_fold": 2,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.43672383843095886,
+    "inner_accuracy": 0.47307220234965136,
+    "inner_balanced_accuracy": 0.4522066709557657
+  },
+  {
+    "key": "grouped_repetitions_P01_fold3",
+    "design": "grouped_repetitions",
+    "participant": "P01",
+    "outer_fold": 3,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.4248854753187749,
+    "inner_accuracy": 0.44677990755139074,
+    "inner_balanced_accuracy": 0.47853294297389176
+  },
+  {
+    "key": "grouped_repetitions_P01_fold4",
+    "design": "grouped_repetitions",
+    "participant": "P01",
+    "outer_fold": 4,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.39811364577574243,
+    "inner_accuracy": 0.42088259002449757,
+    "inner_balanced_accuracy": 0.45606065445361044
+  },
+  {
+    "key": "grouped_repetitions_P01_fold5",
+    "design": "grouped_repetitions",
+    "participant": "P01",
+    "outer_fold": 5,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.4409489539713478,
+    "inner_accuracy": 0.45730473053655973,
+    "inner_balanced_accuracy": 0.4898290478193874
+  },
+  {
+    "key": "grouped_repetitions_P02_fold1",
+    "design": "grouped_repetitions",
+    "participant": "P02",
+    "outer_fold": 1,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.5309537963443983,
+    "inner_accuracy": 0.5044542320375366,
+    "inner_balanced_accuracy": 0.599244448192011
+  },
+  {
+    "key": "grouped_repetitions_P02_fold2",
+    "design": "grouped_repetitions",
+    "participant": "P02",
+    "outer_fold": 2,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.5184180019013568,
+    "inner_accuracy": 0.5284290865284889,
+    "inner_balanced_accuracy": 0.5495625096493739
+  },
+  {
+    "key": "grouped_repetitions_P02_fold3",
+    "design": "grouped_repetitions",
+    "participant": "P02",
+    "outer_fold": 3,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.42935582401576644,
+    "inner_accuracy": 0.4366036503445747,
+    "inner_balanced_accuracy": 0.4961413555187254
+  },
+  {
+    "key": "grouped_repetitions_P02_fold4",
+    "design": "grouped_repetitions",
+    "participant": "P02",
+    "outer_fold": 4,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.4425593934998644,
+    "inner_accuracy": 0.4768649646235259,
+    "inner_balanced_accuracy": 0.500211368593484
+  },
+  {
+    "key": "grouped_repetitions_P02_fold5",
+    "design": "grouped_repetitions",
+    "participant": "P02",
+    "outer_fold": 5,
+    "candidate": {
+      "id": 11,
+      "name": "KNN15_distance",
+      "features": "raw",
+      "family": "KNN",
+      "parameters": {
+        "n_neighbors": 15,
+        "weights": "distance"
+      },
+      "balanced_sample_weight": false
+    },
+    "inner_macro_f1": 0.40582098169898106,
+    "inner_accuracy": 0.4931851698440603,
+    "inner_balanced_accuracy": 0.38846757686125377
+  },
+  {
+    "key": "grouped_repetitions_P03_fold1",
+    "design": "grouped_repetitions",
+    "participant": "P03",
+    "outer_fold": 1,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.515407977616453,
+    "inner_accuracy": 0.488937435433106,
+    "inner_balanced_accuracy": 0.5835153178203376
+  },
+  {
+    "key": "grouped_repetitions_P03_fold2",
+    "design": "grouped_repetitions",
+    "participant": "P03",
+    "outer_fold": 2,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.40509991439758614,
+    "inner_accuracy": 0.4324168510649099,
+    "inner_balanced_accuracy": 0.45991603726400876
+  },
+  {
+    "key": "grouped_repetitions_P03_fold3",
+    "design": "grouped_repetitions",
+    "participant": "P03",
+    "outer_fold": 3,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.4135461545673131,
+    "inner_accuracy": 0.41756838715236305,
+    "inner_balanced_accuracy": 0.4785271561844556
+  },
+  {
+    "key": "grouped_repetitions_P03_fold4",
+    "design": "grouped_repetitions",
+    "participant": "P03",
+    "outer_fold": 4,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.4243278370746272,
+    "inner_accuracy": 0.44814177487367846,
+    "inner_balanced_accuracy": 0.49308124377882395
+  },
+  {
+    "key": "grouped_repetitions_P03_fold5",
+    "design": "grouped_repetitions",
+    "participant": "P03",
+    "outer_fold": 5,
+    "candidate": {
+      "id": 9,
+      "name": "XGBoost300_spatial_balanced",
+      "features": "spatial",
+      "family": "XGB",
+      "parameters": {
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "balanced_sample_weight": true
+    },
+    "inner_macro_f1": 0.425625810370167,
+    "inner_accuracy": 0.44569652642386715,
+    "inner_balanced_accuracy": 0.4767607752612934
+  }
+]
