@@ -1,5 +1,7 @@
 # Response to T-shirt manuscript comments
 
+> **Historical response — 11 September 2026.** The response below records an earlier revision, not the current analysis or figures. Its scores, feature processing and sensor-selection descriptions apply to that earlier workflow. For the current random-sample results and validation scope, see the [current analysis](../code/analysis/within_recording_random_split/README.md). Earlier claims about grouping complete physical repetitions should be read with the later qualification that stored group labels do not guarantee independence of complete cycles and associated returns.
+
 Thank you for the detailed comments. We have revised the manuscript and analysis as follows.
 
 1. **Sensor numbering.** We verified the physical map against Figure 2 and synchronized the figure, Table 1, Methods, channel order, and anatomical descriptions. The confirmed map is S1 right chest, S2 left chest, S3 centre chest, S4 horizontal torso, S5 right lateral torso, S6 left lateral torso, S7 lower-centre torso, S8 centre back, S9 left back, and S10 right back.

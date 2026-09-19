@@ -4,7 +4,11 @@ This directory is the output location for the earlier MATLAB scripts in `code/an
 
 ## Current manuscript analysis
 
-Use [`../../code/analysis/nested_grouped_classification.py`](../../code/analysis/nested_grouped_classification.py) and the [grouped nested-validation results](../nested_grouped/README.md) for the current analysis and Figure 9. The current workflow uses 20 trees for inner sensor selection and 100 trees for outer testing. The ten-sensor baseline has pooled held-posture out-of-fold accuracy of 63.78% and balanced accuracy of 53.16%.
+Use the [within-recording random-sample package](../../code/analysis/within_recording_random_split/README.md) for the current analysis and [current Figures 9 and 10](../within_recording_random_split/README.md). The current participant-mean accuracy is 96.16%; all three selected random-split models are 300-tree Extra Trees classifiers. These are exploratory within-recording results, not independent-session validation.
+
+## Historical grouped sensor-count comparison
+
+The separate [`nested_grouped_classification.py`](../../code/analysis/nested_grouped_classification.py) workflow and [archived grouped results](../nested_grouped/README.md) use 20 trees for inner sensor selection and 100 trees for outer testing. Their ten-sensor baseline has pooled held-posture out-of-fold accuracy of 63.78% and balanced accuracy of 53.16%. These scores and their former Figure 9 are historical, not the current random-sample results.
 
 ## Historical MATLAB configuration
 
@@ -26,4 +30,4 @@ Random sample-level splitting allows temporally adjacent measurements and overla
 
 Run `make_accuracy_table_and_figure9_best_combination.m` in MATLAB only to execute the legacy classification workflow and its historical Figure-9-style plot. Run `make_median_curves_subjects_1_2_3.m` for the legacy median-response workflow. The latter also generates exploratory ordinary one-way ANOVA output, which is not used in the revised manuscript. Use the relevant historical repository version and inputs when reproducing historical results.
 
-These MATLAB scripts write outputs to `results/analysis/`. For the current manuscript analysis, follow the [Python reproduction instructions](../nested_grouped/README.md#reproduction).
+These MATLAB scripts write outputs to `results/analysis/`. For the current manuscript analysis, follow the [current Python reproduction instructions](../../code/analysis/within_recording_random_split/README.md#reproduction).

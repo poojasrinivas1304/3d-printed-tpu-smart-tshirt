@@ -1,5 +1,7 @@
 # T-shirt manuscript revision audit — 11 September 2026
 
+> **Historical revision record.** This page preserves the earlier revision's results and descriptions; it is not the current classifier specification or figure guide. See the [current random-sample analysis](../code/analysis/within_recording_random_split/README.md) for the new results, preprocessing and validation scope. Earlier claims about grouping complete physical repetitions should be read with the later qualification that stored group labels do not guarantee independence of complete cycles and associated returns. Historical numbers below have not been changed.
+
 ## Hardware and channel identity
 
 - The acquisition code and public datasets map S1–S10 to ESP32 GPIO 36, 39, 34, 35, 32, 33, 25, 26, 27, and 14, respectively.

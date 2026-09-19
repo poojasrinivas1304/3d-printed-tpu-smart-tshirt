@@ -1,6 +1,6 @@
 # Data dictionary
 
-Each row represents one sampled time point. The table describes the main fields in the processed CSVs. The primary Python analysis uses the relative-time, protocol, normalized-response and quality-control fields; `pc_time_unix_s` is metadata and is not used for classification.
+Each row represents one sampled time point. The table describes the main fields in the processed CSVs. The [current random-sample classifier](../code/analysis/within_recording_random_split/README.md) uses `adc_s1`–`adc_s10` as its ten sensor inputs and `position_index` as the target label. Training-fitted standardization is applied; one selected participant model also uses same-sample pairwise differences. Resistance, normalized-response and quality-control fields are not classifier inputs or exclusion criteria in that analysis. Relative time, phase and repetition fields support partitioning or diagnostics, not predictive features. `pc_time_unix_s` is metadata and is not used for classification. Descriptive resistance figures and historical analyses use separate processing, documented with their respective workflows.
 
 | Field | Type | Description |
 |---|---|---|
